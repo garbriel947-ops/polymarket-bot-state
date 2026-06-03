@@ -21,25 +21,8 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 600.0,
+  "cash": 841.7975275643167,
   "open": [
-    {
-      "slug": "will-bitcoin-dip-to-62pt5k-in-june-2026",
-      "question": "Will Bitcoin dip to $62,500 in June?",
-      "tag": "crypto",
-      "side": "NO",
-      "entry": 0.365,
-      "tp": 0.44859980463876775,
-      "stop": 0.30926679690748815,
-      "stake": 100.0,
-      "sigma": 0.0279,
-      "dist": 0.0557,
-      "theme": "will bitcoin dip to in june",
-      "und": "BTC",
-      "dir": "UP",
-      "openedAt": "2026-06-03T17:08:28Z",
-      "score": 1.08
-    },
     {
       "slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026",
       "question": "Will Anthropic have the best AI model at the end of June 2026?",
@@ -58,23 +41,6 @@
       "score": 0.19557142857142856
     },
     {
-      "slug": "israel-announces-lebanon-ceasefire-extension-by-june-7",
-      "question": "Israel announces Lebanon ceasefire extension by June 7?",
-      "tag": "autre",
-      "side": "YES",
-      "entry": 0.205,
-      "tp": 0.3008752293003155,
-      "stop": 0.14108318046645632,
-      "stake": 100.0,
-      "sigma": 0.032,
-      "dist": 0.0639,
-      "theme": "israel announces lebanon ceasefire extension by june",
-      "und": "israel announces lebanon ceasefire extension by june",
-      "dir": "YES",
-      "openedAt": "2026-06-03T17:08:28Z",
-      "score": 0.1926666666666667
-    },
-    {
       "slug": "us-strike-on-cuba-by-december-31",
       "question": "US strike on Cuba by December 31?",
       "tag": "autre",
@@ -90,17 +56,64 @@
       "dir": "YES",
       "openedAt": "2026-06-03T17:08:28Z",
       "score": 0.135
+    },
+    {
+      "slug": "will-bitcoin-dip-to-60k-in-june-2026",
+      "question": "Will Bitcoin dip to $60,000 in June?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.515,
+      "tp": 0.575,
+      "stop": 0.47500000000000003,
+      "stake": 100.0,
+      "sigma": 0.02,
+      "dist": 0.04,
+      "theme": "will bitcoin dip to in june",
+      "und": "BTC",
+      "dir": "UP",
+      "openedAt": "2026-06-03T22:31:46Z",
+      "score": 1.2000000000000002
     }
   ],
-  "closed": [],
-  "lastClosed": {},
+  "closed": [
+    {
+      "slug": "israel-announces-lebanon-ceasefire-extension-by-june-7",
+      "question": "Israel announces Lebanon ceasefire extension by June 7?",
+      "tag": "autre",
+      "side": "YES",
+      "entry": 0.205,
+      "exit": 0.535,
+      "pnlPct": 1.6097560975609762,
+      "pnlAmt": 160.9756097560976,
+      "openedAt": "2026-06-03T17:08:28Z",
+      "closedAt": "2026-06-03T22:31:46Z",
+      "reason": "TP"
+    },
+    {
+      "slug": "will-bitcoin-dip-to-62pt5k-in-june-2026",
+      "question": "Will Bitcoin dip to $62,500 in June?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.365,
+      "exit": 0.295,
+      "pnlPct": -0.19178082191780824,
+      "pnlAmt": -19.178082191780824,
+      "openedAt": "2026-06-03T17:08:28Z",
+      "closedAt": "2026-06-03T22:31:46Z",
+      "reason": "STOP"
+    }
+  ],
+  "lastClosed": {
+    "will-bitcoin-dip-to-62pt5k-in-june-2026": "2026-06-03T22:31:46Z",
+    "israel-announces-lebanon-ceasefire-extension-by-june-7": "2026-06-03T22:31:46Z"
+  },
   "running": true,
-  "lastTick": "2026-06-03T20:02:34Z",
+  "lastTick": "2026-06-03T22:31:46Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 0.0,
-    "nClosed": 0,
-    "nWins": 0,
-    "winRate": null
+    "realizedPnl": 141.8,
+    "nClosed": 2,
+    "nWins": 1,
+    "winRate": 0.5
   }
 }
