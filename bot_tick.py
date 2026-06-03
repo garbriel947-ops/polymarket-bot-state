@@ -186,7 +186,12 @@ def main():
             th = theme_key(m.get("question"))
             if theme_ct[th] >= cfg.get("maxPerTheme", 1): continue       # 1 pari max par theme
             if cat_ct[tag] >= cfg.get("maxPerCat", 3): continue          # diversite des categories
-            side = "YES" if day > 0 else "NO"
+            # mode "fade" (mean-reversion, validé en backtest) : on parie sur la CORRECTION
+            # du mouvement -> on prend le cote qui vient de baisser. "momentum" = suivre (perdant).
+            if cfg.get("mode", "fade") == "fade":
+                side = "NO" if day > 0 else "YES"
+            else:
+                side = "YES" if day > 0 else "NO"
             entry = side_price(m, side)
             if entry != entry or entry < cfg["entryMin"] or entry > cfg["entryMax"]: continue
             stake = cfg["capital0"] * cfg["stakePct"]

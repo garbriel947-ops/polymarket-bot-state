@@ -18,37 +18,14 @@
     "maxPerTheme": 1,
     "maxPerCat": 3,
     "maxExpoPerDir": 0.1,
-    "maxHoldDays": 14
+    "maxHoldDays": 14,
+    "mode": "fade"
   },
-  "cash": 900.0,
-  "open": [
-    {
-      "slug": "will-bitcoin-dip-to-62pt5k-in-june-2026",
-      "question": "Will Bitcoin dip to $62,500 in June?",
-      "tag": "crypto",
-      "side": "YES",
-      "entry": 0.655,
-      "tp": 0.7396489220250323,
-      "stop": 0.5985673853166452,
-      "stake": 100.0,
-      "sigma": 0.0282,
-      "dist": 0.0564,
-      "theme": "will bitcoin dip to in june",
-      "und": "BTC",
-      "dir": "DOWN",
-      "openedAt": "2026-06-03T16:47:01Z",
-      "score": 1.26
-    }
-  ],
+  "cash": 1000,
+  "open": [],
   "closed": [],
   "lastClosed": {},
   "running": true,
-  "lastTick": "2026-06-03T16:47:01Z",
-  "note": "Bot Polymarket sim. Anti-correlation: 1/theme, 3/cat, expo nette 10%/(actif,direction). Stop temporel 14j. /5min GitHub Actions.",
-  "stats": {
-    "realizedPnl": 0.0,
-    "nClosed": 0,
-    "nWins": 0,
-    "winRate": null
-  }
+  "lastTick": null,
+  "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions."
 }
