@@ -16,44 +16,15 @@
     "distMin": 0.04,
     "distMax": 0.15,
     "maxPerTheme": 1,
-    "maxPerCat": 3
+    "maxPerCat": 3,
+    "maxExpoPerDir": 0.1,
+    "maxHoldDays": 14
   },
-  "cash": 800.0,
-  "open": [
-    {
-      "slug": "will-bitcoin-dip-to-62pt5k-in-june-2026",
-      "question": "Will Bitcoin dip to $62,500 in June?",
-      "tag": "crypto",
-      "side": "YES",
-      "entry": 0.655,
-      "tp": 0.7396936316691783,
-      "stop": 0.5985375788872145,
-      "stake": 100.0,
-      "sigma": 0.0282,
-      "dist": 0.0565,
-      "theme": "will bitcoin dip to in june",
-      "openedAt": "2026-06-03T16:40:58Z",
-      "score": 1.32
-    },
-    {
-      "slug": "bitcoin-above-64k-on-june-6-2026",
-      "question": "Will the price of Bitcoin be above $64,000 on June 6?",
-      "tag": "crypto",
-      "side": "NO",
-      "entry": 0.2515,
-      "tp": 0.31186621434200074,
-      "stop": 0.21125585710533284,
-      "stake": 100.0,
-      "sigma": 0.0201,
-      "dist": 0.0402,
-      "theme": "will the price of bitcoin be above on june",
-      "openedAt": "2026-06-03T16:40:58Z",
-      "score": 0.8519999999999999
-    }
-  ],
+  "cash": 1000,
+  "open": [],
   "closed": [],
   "lastClosed": {},
   "running": true,
-  "lastTick": "2026-06-03T16:40:58Z",
-  "note": "Bot Polymarket paper-trading simule. Plafond anti-correlation actif. Reecrit /5min par GitHub Actions."
+  "lastTick": null,
+  "note": "Bot Polymarket sim. Anti-correlation: 1/theme, 3/cat, expo nette 10%/(actif,direction). Stop temporel 14j. /5min GitHub Actions."
 }

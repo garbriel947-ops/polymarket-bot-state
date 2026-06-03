@@ -58,6 +58,24 @@ def theme_key(q):
     q = re.sub(r"[^a-z ]", " ", q)         # enleve $ , % etc
     return re.sub(r"\s+", " ", q).strip()
 
+def underlying_dir(question, side):
+    """(sous-jacent, direction) pour plafonner l'EXPOSITION nette.
+       Pour le crypto-prix: asset=BTC/ETH/SOL, direction=UP/DOWN/NEUTRAL selon le sens REEL du pari.
+       Sinon: chaque theme est son propre sous-jacent (pas de netting cross-marche)."""
+    q = (question or "").lower()
+    asset = None
+    if re.search(r"bitcoin|btc", q): asset = "BTC"
+    elif re.search(r"ethereum|ether| eth ", q): asset = "ETH"
+    elif re.search(r"solana| sol ", q): asset = "SOL"
+    if asset:
+        down = re.search(r"dip|below|under|drop|fall|lower|less than", q)
+        up   = re.search(r"reach|above|over|exceed|higher|more than|\bhit\b", q)
+        base = "DOWN" if (down and not up) else ("UP" if (up and not down) else None)
+        if base is None: return (asset, "NEUTRAL")
+        d = base if side == "YES" else ("UP" if base == "DOWN" else "DOWN")
+        return (asset, d)
+    return (theme_key(question), side)
+
 def market_by_slug(slug):
     try:
         d = curl_json(f"{GAMMA}/markets?slug={slug}")
@@ -89,6 +107,7 @@ def main():
     cfg = st["cfg"]
     cash = st["cash"]; opens = st["open"]; closed = st["closed"]
     last_closed = st.get("lastClosed", {}); running = st.get("running", True)
+    stats = st.get("stats", {"realizedPnl": 0.0, "nClosed": 0, "nWins": 0})  # cumul (survit au bornage)
 
     # marche-map depuis le top volume24h
     allm = []
@@ -112,6 +131,7 @@ def main():
         if cur >= p["tp"]: reason = "TP"
         elif cur <= p["stop"]: reason = "STOP"
         elif m.get("closed") is True: reason = "RESOL"
+        elif cfg.get("maxHoldDays", 0) and hours_since(p["openedAt"]) > cfg["maxHoldDays"]*24: reason = "TIME"
         if reason:
             pnl_pct = (cur - p["entry"]) / p["entry"]
             pnl_amt = p["stake"] * pnl_pct
@@ -120,6 +140,8 @@ def main():
                 "side": p["side"], "entry": p["entry"], "exit": cur, "pnlPct": pnl_pct,
                 "pnlAmt": pnl_amt, "openedAt": p["openedAt"], "closedAt": now_iso(), "reason": reason})
             last_closed[p["slug"]] = now_iso()
+            stats["realizedPnl"] += pnl_amt; stats["nClosed"] += 1
+            if pnl_amt > 0: stats["nWins"] += 1
         else:
             still.append(p)
     opens = still
@@ -148,9 +170,13 @@ def main():
             score = abs(day) * min(fresh, 3) * (1 + accel)
             cand.append((score, m, day, tag))
         cand.sort(key=lambda x: -x[0])
-        # plafonds anti-correlation : compteurs par theme et par categorie
+        # plafonds anti-correlation : par theme, par categorie, et par EXPOSITION directionnelle nette
         theme_ct = Counter(theme_key(p.get("question")) for p in opens)
         cat_ct = Counter(p.get("tag") for p in opens)
+        expo = Counter()
+        for p in opens:
+            expo[underlying_dir(p.get("question"), p.get("side"))] += p.get("stake", 0)
+        max_expo = cfg.get("maxExpoPerDir", 0.10) * cfg["capital0"]
         for score, m, day, tag in cand:
             if len(opens) >= cfg["maxOpen"]: break
             if score < cfg["minScore"]: break
@@ -165,6 +191,8 @@ def main():
             if entry != entry or entry < cfg["entryMin"] or entry > cfg["entryMax"]: continue
             stake = cfg["capital0"] * cfg["stakePct"]
             if cash < stake: continue
+            ud = underlying_dir(m.get("question"), side)            # (sous-jacent, direction)
+            if expo[ud] + stake > max_expo: continue               # plafond d'exposition nette
             # --- stop/TP adaptes a la volatilite du marche ---
             k = cfg.get("kStop", 2.0); R = cfg.get("rTP", 1.5)
             sigma = volatility(m)
@@ -178,14 +206,19 @@ def main():
             opens.append({"slug": slug, "question": m.get("question"), "tag": tag, "side": side,
                 "entry": entry, "tp": tp, "stop": stop, "stake": stake,
                 "sigma": round(sigma, 4) if sigma is not None else None,
-                "dist": round(dist, 4), "theme": th, "openedAt": now_iso(), "score": score})
+                "dist": round(dist, 4), "theme": th, "und": ud[0], "dir": ud[1],
+                "openedAt": now_iso(), "score": score})
             cash -= stake
-            theme_ct[th] += 1; cat_ct[tag] += 1
+            theme_ct[th] += 1; cat_ct[tag] += 1; expo[ud] += stake
 
-    st.update({"cash": cash, "open": opens, "closed": closed,
-               "lastClosed": last_closed, "running": running, "lastTick": now_iso()})
+    stats["realizedPnl"] = round(stats["realizedPnl"], 2)
+    stats["winRate"] = round(stats["nWins"]/stats["nClosed"], 3) if stats["nClosed"] else None
+    # bornage : on garde les 300 derniers trades dans le fichier (stats cumulees = exactes)
+    st.update({"cash": cash, "open": opens, "closed": closed[:300],
+               "lastClosed": last_closed, "running": running, "lastTick": now_iso(), "stats": stats})
     json.dump(st, open(STATE, "w"), ensure_ascii=False, indent=2)
-    print(f"tick OK @ {st['lastTick']} | cash={cash:.0f} | open={len(opens)} | closed={len(closed)}")
+    print(f"tick OK @ {st['lastTick']} | cash={cash:.0f} | open={len(opens)} | "
+          f"closed_cumul={stats['nClosed']} | realized={stats['realizedPnl']:+.1f}")
 
 if __name__ == "__main__":
     main()
