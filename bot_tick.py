@@ -7,6 +7,7 @@ Adapte au tick HORAIRE du cloud : exclut le sport live, exige echeance >= minDay
 Lance dans le repo clone (state.json dans le cwd). Reseau via curl (urllib = 403).
 """
 import json, subprocess, datetime, re, sys
+from collections import Counter
 
 GAMMA = "https://gamma-api.polymarket.com"
 STATE = "state.json"
@@ -48,6 +49,14 @@ def tag_of(q):
     if re.search(r"bitcoin|btc|ethereum| eth |solana|crypto|dogecoin|xrp", q): return "crypto"
     if re.search(r" vs | vs\.|atp|wta|nba|nfl|nhl|match|roland|stanley|padres|win the ", q): return "sport"
     return "autre"
+
+def theme_key(q):
+    """Cle de theme : meme question sans les chiffres -> regroupe les paris correles
+       (ex: 'BTC dip to $65k/$60k/$55k' = un seul theme)."""
+    q = (q or "").lower()
+    q = re.sub(r"[0-9]", "", q)            # enleve les seuils ($65k, $60k...)
+    q = re.sub(r"[^a-z ]", " ", q)         # enleve $ , % etc
+    return re.sub(r"\s+", " ", q).strip()
 
 def market_by_slug(slug):
     try:
@@ -139,12 +148,18 @@ def main():
             score = abs(day) * min(fresh, 3) * (1 + accel)
             cand.append((score, m, day, tag))
         cand.sort(key=lambda x: -x[0])
+        # plafonds anti-correlation : compteurs par theme et par categorie
+        theme_ct = Counter(theme_key(p.get("question")) for p in opens)
+        cat_ct = Counter(p.get("tag") for p in opens)
         for score, m, day, tag in cand:
             if len(opens) >= cfg["maxOpen"]: break
             if score < cfg["minScore"]: break
             slug = m.get("slug")
             if any(p["slug"] == slug for p in opens): continue
             if hours_since(last_closed.get(slug)) < cfg["cooldownH"]: continue
+            th = theme_key(m.get("question"))
+            if theme_ct[th] >= cfg.get("maxPerTheme", 1): continue       # 1 pari max par theme
+            if cat_ct[tag] >= cfg.get("maxPerCat", 3): continue          # diversite des categories
             side = "YES" if day > 0 else "NO"
             entry = side_price(m, side)
             if entry != entry or entry < cfg["entryMin"] or entry > cfg["entryMax"]: continue
@@ -163,8 +178,9 @@ def main():
             opens.append({"slug": slug, "question": m.get("question"), "tag": tag, "side": side,
                 "entry": entry, "tp": tp, "stop": stop, "stake": stake,
                 "sigma": round(sigma, 4) if sigma is not None else None,
-                "dist": round(dist, 4), "openedAt": now_iso(), "score": score})
+                "dist": round(dist, 4), "theme": th, "openedAt": now_iso(), "score": score})
             cash -= stake
+            theme_ct[th] += 1; cat_ct[tag] += 1
 
     st.update({"cash": cash, "open": opens, "closed": closed,
                "lastClosed": last_closed, "running": running, "lastTick": now_iso()})
