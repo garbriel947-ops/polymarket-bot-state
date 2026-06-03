@@ -95,7 +95,7 @@
   "closed": [],
   "lastClosed": {},
   "running": true,
-  "lastTick": "2026-06-03T17:08:28Z",
+  "lastTick": "2026-06-03T20:02:34Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 0.0,
