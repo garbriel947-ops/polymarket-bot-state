@@ -1,0 +1,27 @@
+name: bot-tick
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: bot-tick
+  cancel-in-progress: false
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: run tick
+        run: python bot_tick.py
+      - name: commit state
+        run: |
+          git config user.name "pmbot-actions"
+          git config user.email "bot@actions"
+          git add state.json
+          git diff --quiet --cached || git commit -m "tick $(date -u +%FT%TZ)"
+          git push

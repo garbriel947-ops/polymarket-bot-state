@@ -1,10 +1,26 @@
 {
-  "cfg": {"capital0":1000,"stakePct":0.10,"tpPct":0.10,"stopPct":0.08,"minScore":0.30,"maxOpen":8,"entryMin":0.10,"entryMax":0.80,"cooldownH":12,"minDaysLeft":2,"excludeSport":true},
+  "cfg": {
+    "capital0": 1000,
+    "stakePct": 0.1,
+    "tpPct": 0.08,
+    "stopPct": 0.08,
+    "minScore": 0.12,
+    "maxOpen": 8,
+    "entryMin": 0.08,
+    "entryMax": 0.88,
+    "cooldownH": 12,
+    "minDaysLeft": 2,
+    "excludeSport": true,
+    "kStop": 2.0,
+    "rTP": 1.5,
+    "distMin": 0.04,
+    "distMax": 0.15
+  },
   "cash": 1000,
   "open": [],
   "closed": [],
   "lastClosed": {},
   "running": true,
   "lastTick": null,
-  "note": "Etat du bot Polymarket (paper trading 100% simule). Reecrit chaque heure par la routine cloud."
+  "note": "Bot Polymarket paper-trading simule. Reecrit toutes les 5 min par GitHub Actions."
 }
