@@ -1,0 +1,10 @@
+{
+  "cfg": {"capital0":1000,"stakePct":0.10,"tpPct":0.10,"stopPct":0.08,"minScore":0.30,"maxOpen":8,"entryMin":0.10,"entryMax":0.80,"cooldownH":12,"minDaysLeft":2,"excludeSport":true},
+  "cash": 1000,
+  "open": [],
+  "closed": [],
+  "lastClosed": {},
+  "running": true,
+  "lastTick": null,
+  "note": "Etat du bot Polymarket (paper trading 100% simule). Reecrit chaque heure par la routine cloud."
+}
