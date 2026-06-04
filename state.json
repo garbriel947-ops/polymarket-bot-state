@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 607.8921788020913,
+  "cash": 587.4840155367851,
   "open": [
     {
       "slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026",
@@ -75,23 +75,6 @@
       "score": 1.98
     },
     {
-      "slug": "will-bitcoin-reach-72pt5k-in-june-2026",
-      "question": "Will Bitcoin reach $72,500 in June?",
-      "tag": "crypto",
-      "side": "YES",
-      "entry": 0.245,
-      "tp": 0.30826518670967207,
-      "stop": 0.2028232088602186,
-      "stake": 100.0,
-      "sigma": 0.0211,
-      "dist": 0.0422,
-      "theme": "will bitcoin reach in june",
-      "und": "BTC",
-      "dir": "UP",
-      "openedAt": "2026-06-04T09:01:39Z",
-      "score": 1.3800000000000001
-    },
-    {
       "slug": "israel-x-hezbollah-permanent-peace-deal-by-june-30-2026",
       "question": "Israel x Hezbollah permanent peace deal by June 30, 2026?",
       "tag": "autre",
@@ -107,9 +90,39 @@
       "dir": "NO",
       "openedAt": "2026-06-04T09:01:39Z",
       "score": 0.36571428571428577
+    },
+    {
+      "slug": "will-bitcoin-reach-70000-in-june-2026-from-june-2",
+      "question": "Will Bitcoin reach $70,000 in June?",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.285,
+      "tp": 0.3592524730367017,
+      "stop": 0.23549835130886548,
+      "stake": 100.0,
+      "sigma": 0.0248,
+      "dist": 0.0495,
+      "theme": "will bitcoin reach in june",
+      "und": "BTC",
+      "dir": "UP",
+      "openedAt": "2026-06-04T12:11:06Z",
+      "score": 1.23
     }
   ],
   "closed": [
+    {
+      "slug": "will-bitcoin-reach-72pt5k-in-june-2026",
+      "question": "Will Bitcoin reach $72,500 in June?",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.245,
+      "exit": 0.195,
+      "pnlPct": -0.20408163265306117,
+      "pnlAmt": -20.40816326530612,
+      "openedAt": "2026-06-04T09:01:39Z",
+      "closedAt": "2026-06-04T12:11:06Z",
+      "reason": "STOP"
+    },
     {
       "slug": "bitcoin-above-64k-on-june-6-2026",
       "question": "Will the price of Bitcoin be above $64,000 on June 6?",
@@ -167,15 +180,16 @@
     "will-bitcoin-dip-to-62pt5k-in-june-2026": "2026-06-03T22:31:46Z",
     "israel-announces-lebanon-ceasefire-extension-by-june-7": "2026-06-03T22:31:46Z",
     "will-bitcoin-dip-to-60k-in-june-2026": "2026-06-04T00:15:51Z",
-    "bitcoin-above-64k-on-june-6-2026": "2026-06-04T09:01:38Z"
+    "bitcoin-above-64k-on-june-6-2026": "2026-06-04T09:01:38Z",
+    "will-bitcoin-reach-72pt5k-in-june-2026": "2026-06-04T12:11:06Z"
   },
   "running": true,
-  "lastTick": "2026-06-04T09:01:39Z",
+  "lastTick": "2026-06-04T12:11:06Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 107.89,
-    "nClosed": 4,
+    "realizedPnl": 87.48,
+    "nClosed": 5,
     "nWins": 1,
-    "winRate": 0.25
+    "winRate": 0.2
   }
 }
