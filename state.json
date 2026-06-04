@@ -122,7 +122,7 @@
     "will-bitcoin-dip-to-60k-in-june-2026": "2026-06-04T00:15:51Z"
   },
   "running": true,
-  "lastTick": "2026-06-04T00:15:51Z",
+  "lastTick": "2026-06-04T05:12:29Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 120.44,
