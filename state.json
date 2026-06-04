@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 619.0629629052062,
+  "cash": 628.2654168929363,
   "open": [
     {
       "slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026",
@@ -75,23 +75,6 @@
       "score": 1.98
     },
     {
-      "slug": "israel-x-hezbollah-permanent-peace-deal-by-june-30-2026",
-      "question": "Israel x Hezbollah permanent peace deal by June 30, 2026?",
-      "tag": "autre",
-      "side": "NO",
-      "entry": 0.815,
-      "tp": 0.875,
-      "stop": 0.7749999999999999,
-      "stake": 100.0,
-      "sigma": 0.0117,
-      "dist": 0.04,
-      "theme": "israel x hezbollah permanent peace deal by june",
-      "und": "israel x hezbollah permanent peace deal by june",
-      "dir": "NO",
-      "openedAt": "2026-06-04T09:01:39Z",
-      "score": 0.36571428571428577
-    },
-    {
       "slug": "will-bitcoin-dip-to-60k-in-june-2026-453",
       "question": "Will Bitcoin dip to $60,000 in June?",
       "tag": "crypto",
@@ -107,9 +90,39 @@
       "dir": "UP",
       "openedAt": "2026-06-04T15:43:59Z",
       "score": 0.765
+    },
+    {
+      "slug": "trump-orders-federal-review-of-ai-model-releases-by-june-30",
+      "question": "Trump orders federal review of AI model releases by June 30?",
+      "tag": "autre",
+      "side": "YES",
+      "entry": 0.355,
+      "tp": 0.554455365680229,
+      "stop": 0.22202975621318063,
+      "stake": 100.0,
+      "sigma": 0.0665,
+      "dist": 0.133,
+      "theme": "trump orders federal review of ai model releases by june",
+      "und": "trump orders federal review of ai model releases by june",
+      "dir": "YES",
+      "openedAt": "2026-06-04T18:01:34Z",
+      "score": 0.2603571428571429
     }
   ],
   "closed": [
+    {
+      "slug": "israel-x-hezbollah-permanent-peace-deal-by-june-30-2026",
+      "question": "Israel x Hezbollah permanent peace deal by June 30, 2026?",
+      "tag": "autre",
+      "side": "NO",
+      "entry": 0.815,
+      "exit": 0.89,
+      "pnlPct": 0.0920245398773007,
+      "pnlAmt": 9.20245398773007,
+      "openedAt": "2026-06-04T09:01:39Z",
+      "closedAt": "2026-06-04T18:01:33Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-bitcoin-reach-70000-in-june-2026-from-june-2",
       "question": "Will Bitcoin reach $70,000 in June?",
@@ -195,15 +208,16 @@
     "will-bitcoin-dip-to-60k-in-june-2026": "2026-06-04T00:15:51Z",
     "bitcoin-above-64k-on-june-6-2026": "2026-06-04T09:01:38Z",
     "will-bitcoin-reach-72pt5k-in-june-2026": "2026-06-04T12:11:06Z",
-    "will-bitcoin-reach-70000-in-june-2026-from-june-2": "2026-06-04T15:43:59Z"
+    "will-bitcoin-reach-70000-in-june-2026-from-june-2": "2026-06-04T15:43:59Z",
+    "israel-x-hezbollah-permanent-peace-deal-by-june-30-2026": "2026-06-04T18:01:33Z"
   },
   "running": true,
-  "lastTick": "2026-06-04T15:43:59Z",
+  "lastTick": "2026-06-04T18:01:34Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 119.06,
-    "nClosed": 6,
-    "nWins": 2,
-    "winRate": 0.333
+    "realizedPnl": 128.26,
+    "nClosed": 7,
+    "nWins": 3,
+    "winRate": 0.429
   }
 }
