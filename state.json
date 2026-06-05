@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 649.1978034319915,
+  "cash": 623.743257977446,
   "open": [
     {
       "slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026",
@@ -75,24 +75,37 @@
       "score": 0.2603571428571429
     },
     {
+      "slug": "will-bitcoin-dip-to-57pt5k-in-june-2026-623",
+      "question": "Will Bitcoin dip to $57,500 in June?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.3605,
+      "tp": 0.4481918376956344,
+      "stop": 0.30203877486957703,
+      "stake": 100.0,
+      "sigma": 0.0292,
+      "dist": 0.0585,
+      "theme": "will bitcoin dip to in june",
+      "und": "BTC",
+      "dir": "UP",
+      "openedAt": "2026-06-05T14:11:27Z",
+      "score": 1.3920000000000001
+    }
+  ],
+  "closed": [
+    {
       "slug": "will-bitcoin-reach-70000-in-june-2026-from-june-2",
       "question": "Will Bitcoin reach $70,000 in June?",
       "tag": "crypto",
       "side": "YES",
       "entry": 0.275,
-      "tp": 0.3411851097302105,
-      "stop": 0.23087659351319303,
-      "stake": 100.0,
-      "sigma": 0.0221,
-      "dist": 0.0441,
-      "theme": "will bitcoin reach in june",
-      "und": "BTC",
-      "dir": "UP",
+      "exit": 0.205,
+      "pnlPct": -0.25454545454545463,
+      "pnlAmt": -25.454545454545464,
       "openedAt": "2026-06-05T08:36:53Z",
-      "score": 0.27
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-06-05T14:11:26Z",
+      "reason": "STOP"
+    },
     {
       "slug": "will-bitcoin-dip-to-60k-in-june-2026-453",
       "question": "Will Bitcoin dip to $60,000 in June?",
@@ -217,18 +230,18 @@
     "will-bitcoin-dip-to-60k-in-june-2026": "2026-06-04T00:15:51Z",
     "bitcoin-above-64k-on-june-6-2026": "2026-06-04T09:01:38Z",
     "will-bitcoin-reach-72pt5k-in-june-2026": "2026-06-04T12:11:06Z",
-    "will-bitcoin-reach-70000-in-june-2026-from-june-2": "2026-06-04T15:43:59Z",
+    "will-bitcoin-reach-70000-in-june-2026-from-june-2": "2026-06-05T14:11:26Z",
     "israel-x-hezbollah-permanent-peace-deal-by-june-30-2026": "2026-06-04T18:01:33Z",
     "will-ethereum-dip-to-1700-in-june-2026": "2026-06-05T04:51:17Z",
     "will-bitcoin-dip-to-60k-in-june-2026-453": "2026-06-05T08:36:53Z"
   },
   "running": true,
-  "lastTick": "2026-06-05T11:46:09Z",
+  "lastTick": "2026-06-05T14:11:27Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 49.19,
-    "nClosed": 9,
+    "realizedPnl": 23.74,
+    "nClosed": 10,
     "nWins": 3,
-    "winRate": 0.333
+    "winRate": 0.3
   }
 }
