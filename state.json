@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 628.2654168929363,
+  "cash": 677.0459046978143,
   "open": [
     {
       "slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026",
@@ -56,23 +56,6 @@
       "dir": "YES",
       "openedAt": "2026-06-03T17:08:28Z",
       "score": 0.135
-    },
-    {
-      "slug": "will-ethereum-dip-to-1700-in-june-2026",
-      "question": "Will Ethereum dip to $1,700 in June?",
-      "tag": "crypto",
-      "side": "NO",
-      "entry": 0.205,
-      "tp": 0.35376895151751386,
-      "stop": 0.10582069898832405,
-      "stake": 100.0,
-      "sigma": 0.0496,
-      "dist": 0.0992,
-      "theme": "will ethereum dip to in june",
-      "und": "ETH",
-      "dir": "UP",
-      "openedAt": "2026-06-04T09:01:39Z",
-      "score": 1.98
     },
     {
       "slug": "will-bitcoin-dip-to-60k-in-june-2026-453",
@@ -110,6 +93,19 @@
     }
   ],
   "closed": [
+    {
+      "slug": "will-ethereum-dip-to-1700-in-june-2026",
+      "question": "Will Ethereum dip to $1,700 in June?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.205,
+      "exit": 0.1,
+      "pnlPct": -0.5121951219512194,
+      "pnlAmt": -51.21951219512194,
+      "openedAt": "2026-06-04T09:01:39Z",
+      "closedAt": "2026-06-05T04:51:17Z",
+      "reason": "STOP"
+    },
     {
       "slug": "israel-x-hezbollah-permanent-peace-deal-by-june-30-2026",
       "question": "Israel x Hezbollah permanent peace deal by June 30, 2026?",
@@ -209,15 +205,16 @@
     "bitcoin-above-64k-on-june-6-2026": "2026-06-04T09:01:38Z",
     "will-bitcoin-reach-72pt5k-in-june-2026": "2026-06-04T12:11:06Z",
     "will-bitcoin-reach-70000-in-june-2026-from-june-2": "2026-06-04T15:43:59Z",
-    "israel-x-hezbollah-permanent-peace-deal-by-june-30-2026": "2026-06-04T18:01:33Z"
+    "israel-x-hezbollah-permanent-peace-deal-by-june-30-2026": "2026-06-04T18:01:33Z",
+    "will-ethereum-dip-to-1700-in-june-2026": "2026-06-05T04:51:17Z"
   },
   "running": true,
-  "lastTick": "2026-06-05T00:18:40Z",
+  "lastTick": "2026-06-05T04:51:17Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 128.26,
-    "nClosed": 7,
+    "realizedPnl": 77.04,
+    "nClosed": 8,
     "nWins": 3,
-    "winRate": 0.429
+    "winRate": 0.375
   }
 }
