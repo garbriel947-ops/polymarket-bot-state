@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 623.743257977446,
+  "cash": 523.743257977446,
   "open": [
     {
       "slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026",
@@ -90,6 +90,23 @@
       "dir": "UP",
       "openedAt": "2026-06-05T14:11:27Z",
       "score": 1.3920000000000001
+    },
+    {
+      "slug": "will-ethereum-dip-to-1200-in-june-2026",
+      "question": "Will Ethereum dip to $1,200 in June?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.828,
+      "tp": 0.8879999999999999,
+      "stop": 0.7879999999999999,
+      "stake": 100.0,
+      "sigma": 0.0068,
+      "dist": 0.04,
+      "theme": "will ethereum dip to in june",
+      "und": "ETH",
+      "dir": "UP",
+      "openedAt": "2026-06-05T16:40:59Z",
+      "score": 0.705
     }
   ],
   "closed": [
@@ -236,7 +253,7 @@
     "will-bitcoin-dip-to-60k-in-june-2026-453": "2026-06-05T08:36:53Z"
   },
   "running": true,
-  "lastTick": "2026-06-05T14:11:27Z",
+  "lastTick": "2026-06-05T16:40:59Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 23.74,
