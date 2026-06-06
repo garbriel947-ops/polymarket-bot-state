@@ -295,7 +295,7 @@
     "us-strike-on-cuba-by-december-31": "2026-06-06T14:11:14Z"
   },
   "running": true,
-  "lastTick": "2026-06-06T15:40:24Z",
+  "lastTick": "2026-06-06T16:45:43Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 6.49,
