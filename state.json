@@ -21,25 +21,8 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 384.86989815663554,
+  "cash": 392.89026734823324,
   "open": [
-    {
-      "slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026",
-      "question": "Will Anthropic have the best AI model at the end of June 2026?",
-      "tag": "autre",
-      "side": "YES",
-      "entry": 0.7855,
-      "tp": 0.8454999999999999,
-      "stop": 0.7454999999999999,
-      "stake": 100.0,
-      "sigma": 0.007,
-      "dist": 0.04,
-      "theme": "will anthropic have the best ai model at the end of june",
-      "und": "will anthropic have the best ai model at the end of june",
-      "dir": "YES",
-      "openedAt": "2026-06-03T17:08:28Z",
-      "score": 0.19557142857142856
-    },
     {
       "slug": "trump-orders-federal-review-of-ai-model-releases-by-june-30",
       "question": "Trump orders federal review of AI model releases by June 30?",
@@ -124,9 +107,39 @@
       "dir": "YES",
       "openedAt": "2026-06-06T20:19:06Z",
       "score": 0.15125
+    },
+    {
+      "slug": "us-announces-new-iran-agreementceasefire-extension-by-july-31",
+      "question": "US announces new Iran agreement/ceasefire extension by July 31?",
+      "tag": "autre",
+      "side": "YES",
+      "entry": 0.575,
+      "tp": 0.635,
+      "stop": 0.5349999999999999,
+      "stake": 100.0,
+      "sigma": 0.0092,
+      "dist": 0.04,
+      "theme": "us announces new iran agreement ceasefire extension by july",
+      "und": "us announces new iran agreement ceasefire extension by july",
+      "dir": "YES",
+      "openedAt": "2026-06-06T23:43:37Z",
+      "score": 0.16333333333333336
     }
   ],
   "closed": [
+    {
+      "slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026",
+      "question": "Will Anthropic have the best AI model at the end of June 2026?",
+      "tag": "autre",
+      "side": "YES",
+      "entry": 0.7855,
+      "exit": 0.8485,
+      "pnlPct": 0.08020369191597716,
+      "pnlAmt": 8.020369191597716,
+      "openedAt": "2026-06-03T17:08:28Z",
+      "closedAt": "2026-06-06T23:43:36Z",
+      "reason": "TP"
+    },
     {
       "slug": "elon-musk-of-tweets-june-2-june-9-180-199",
       "question": "Will Elon Musk post 180-199 tweets from June 2 to June 9, 2026?",
@@ -323,15 +336,16 @@
     "will-bitcoin-dip-to-57pt5k-in-june-2026-623": "2026-06-06T04:31:59Z",
     "will-bitcoin-dip-to-55k-in-june-2026-779": "2026-06-06T09:36:22Z",
     "us-strike-on-cuba-by-december-31": "2026-06-06T14:11:14Z",
-    "elon-musk-of-tweets-june-2-june-9-180-199": "2026-06-06T20:19:06Z"
+    "elon-musk-of-tweets-june-2-june-9-180-199": "2026-06-06T20:19:06Z",
+    "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026": "2026-06-06T23:43:36Z"
   },
   "running": true,
-  "lastTick": "2026-06-06T22:40:07Z",
+  "lastTick": "2026-06-06T23:43:37Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": -15.13,
-    "nClosed": 14,
-    "nWins": 4,
-    "winRate": 0.286
+    "realizedPnl": -7.11,
+    "nClosed": 15,
+    "nWins": 5,
+    "winRate": 0.333
   }
 }
