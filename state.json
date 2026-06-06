@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 406.49151977825716,
+  "cash": 384.86989815663554,
   "open": [
     {
       "slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026",
@@ -92,23 +92,6 @@
       "score": 0.54
     },
     {
-      "slug": "elon-musk-of-tweets-june-2-june-9-180-199",
-      "question": "Will Elon Musk post 180-199 tweets from June 2 to June 9, 2026?",
-      "tag": "autre",
-      "side": "YES",
-      "entry": 0.185,
-      "tp": 0.245,
-      "stop": 0.145,
-      "stake": 100.0,
-      "sigma": 0.0101,
-      "dist": 0.04,
-      "theme": "will elon musk post tweets from june to june",
-      "und": "will elon musk post tweets from june to june",
-      "dir": "YES",
-      "openedAt": "2026-06-06T15:40:24Z",
-      "score": 0.135
-    },
-    {
       "slug": "will-bitcoin-dip-to-57pt5k-in-june-2026-623",
       "question": "Will Bitcoin dip to $57,500 in June?",
       "tag": "crypto",
@@ -124,9 +107,39 @@
       "dir": "DOWN",
       "openedAt": "2026-06-06T19:04:51Z",
       "score": 0.26403333333333334
+    },
+    {
+      "slug": "us-x-iran-permanent-peace-deal-by-july-31-2026-831-252",
+      "question": "US x Iran permanent peace deal by July 31, 2026?",
+      "tag": "autre",
+      "side": "YES",
+      "entry": 0.295,
+      "tp": 0.355,
+      "stop": 0.255,
+      "stake": 100.0,
+      "sigma": 0.0078,
+      "dist": 0.04,
+      "theme": "us x iran permanent peace deal by july",
+      "und": "us x iran permanent peace deal by july",
+      "dir": "YES",
+      "openedAt": "2026-06-06T20:19:06Z",
+      "score": 0.15125
     }
   ],
   "closed": [
+    {
+      "slug": "elon-musk-of-tweets-june-2-june-9-180-199",
+      "question": "Will Elon Musk post 180-199 tweets from June 2 to June 9, 2026?",
+      "tag": "autre",
+      "side": "YES",
+      "entry": 0.185,
+      "exit": 0.145,
+      "pnlPct": -0.21621621621621626,
+      "pnlAmt": -21.621621621621625,
+      "openedAt": "2026-06-06T15:40:24Z",
+      "closedAt": "2026-06-06T20:19:06Z",
+      "reason": "STOP"
+    },
     {
       "slug": "us-strike-on-cuba-by-december-31",
       "question": "US strike on Cuba by December 31?",
@@ -309,15 +322,16 @@
     "will-bitcoin-dip-to-60k-in-june-2026-453": "2026-06-05T08:36:53Z",
     "will-bitcoin-dip-to-57pt5k-in-june-2026-623": "2026-06-06T04:31:59Z",
     "will-bitcoin-dip-to-55k-in-june-2026-779": "2026-06-06T09:36:22Z",
-    "us-strike-on-cuba-by-december-31": "2026-06-06T14:11:14Z"
+    "us-strike-on-cuba-by-december-31": "2026-06-06T14:11:14Z",
+    "elon-musk-of-tweets-june-2-june-9-180-199": "2026-06-06T20:19:06Z"
   },
   "running": true,
-  "lastTick": "2026-06-06T19:04:51Z",
+  "lastTick": "2026-06-06T20:19:06Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 6.49,
-    "nClosed": 13,
+    "realizedPnl": -15.13,
+    "nClosed": 14,
     "nWins": 4,
-    "winRate": 0.308
+    "winRate": 0.286
   }
 }
