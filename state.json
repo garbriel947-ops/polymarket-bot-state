@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 606.4915197782572,
+  "cash": 506.49151977825716,
   "open": [
     {
       "slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026",
@@ -90,6 +90,23 @@
       "dir": "UP",
       "openedAt": "2026-06-06T09:36:22Z",
       "score": 0.54
+    },
+    {
+      "slug": "elon-musk-of-tweets-june-2-june-9-180-199",
+      "question": "Will Elon Musk post 180-199 tweets from June 2 to June 9, 2026?",
+      "tag": "autre",
+      "side": "YES",
+      "entry": 0.185,
+      "tp": 0.245,
+      "stop": 0.145,
+      "stake": 100.0,
+      "sigma": 0.0101,
+      "dist": 0.04,
+      "theme": "will elon musk post tweets from june to june",
+      "und": "will elon musk post tweets from june to june",
+      "dir": "YES",
+      "openedAt": "2026-06-06T15:40:24Z",
+      "score": 0.135
     }
   ],
   "closed": [
@@ -278,7 +295,7 @@
     "us-strike-on-cuba-by-december-31": "2026-06-06T14:11:14Z"
   },
   "running": true,
-  "lastTick": "2026-06-06T14:11:14Z",
+  "lastTick": "2026-06-06T15:40:24Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 6.49,
