@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 522.7527104540027,
+  "cash": 545.1945660545238,
   "open": [
     {
       "slug": "trump-orders-federal-review-of-ai-model-releases-by-june-30",
@@ -41,23 +41,6 @@
       "score": 0.2603571428571429
     },
     {
-      "slug": "will-bitcoin-reach-65000-in-june-2026-from-june-4",
-      "question": "Will Bitcoin reach $65,000 in June?",
-      "tag": "crypto",
-      "side": "YES",
-      "entry": 0.595,
-      "tp": 0.7666668730597794,
-      "stop": 0.480555417960147,
-      "stake": 100.0,
-      "sigma": 0.0572,
-      "dist": 0.1144,
-      "theme": "will bitcoin reach in june",
-      "und": "BTC",
-      "dir": "UP",
-      "openedAt": "2026-06-06T09:36:22Z",
-      "score": 0.54
-    },
-    {
       "slug": "us-x-iran-permanent-peace-deal-by-july-31-2026-831-252",
       "question": "US x Iran permanent peace deal by July 31, 2026?",
       "tag": "autre",
@@ -75,41 +58,97 @@
       "score": 0.15125
     },
     {
-      "slug": "us-announces-new-iran-agreementceasefire-extension-by-july-31",
-      "question": "US announces new Iran agreement/ceasefire extension by July 31?",
-      "tag": "autre",
+      "slug": "will-bitcoin-dip-to-52pt5k-in-june-2026-885",
+      "question": "Will Bitcoin dip to $52,500 in June?",
+      "tag": "crypto",
       "side": "YES",
-      "entry": 0.575,
-      "tp": 0.635,
-      "stop": 0.5349999999999999,
+      "entry": 0.1805,
+      "tp": 0.2405,
+      "stop": 0.14049999999999999,
       "stake": 100.0,
-      "sigma": 0.0092,
+      "sigma": 0.0162,
       "dist": 0.04,
-      "theme": "us announces new iran agreement ceasefire extension by july",
-      "und": "us announces new iran agreement ceasefire extension by july",
-      "dir": "YES",
-      "openedAt": "2026-06-06T23:43:37Z",
-      "score": 0.16333333333333336
+      "theme": "will bitcoin dip to in june",
+      "und": "BTC",
+      "dir": "DOWN",
+      "openedAt": "2026-06-07T22:43:04Z",
+      "score": 0.54
     },
+    {
+      "slug": "will-ethereum-dip-to-1200-in-june-2026",
+      "question": "Will Ethereum dip to $1,200 in June?",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.111,
+      "tp": 0.17099999999999999,
+      "stop": 0.07100000000000001,
+      "stake": 100.0,
+      "sigma": 0.01,
+      "dist": 0.04,
+      "theme": "will ethereum dip to in june",
+      "und": "ETH",
+      "dir": "DOWN",
+      "openedAt": "2026-06-07T22:43:04Z",
+      "score": 0.3850666666666666
+    },
+    {
+      "slug": "israel-closes-its-airspace-by-june-30-324",
+      "question": "Israel closes its airspace by June 30?",
+      "tag": "autre",
+      "side": "NO",
+      "entry": 0.635,
+      "tp": 0.6990585644634849,
+      "stop": 0.5922942903576768,
+      "stake": 100.0,
+      "sigma": 0.0214,
+      "dist": 0.0427,
+      "theme": "israel closes its airspace by june",
+      "und": "israel closes its airspace by june",
+      "dir": "NO",
+      "openedAt": "2026-06-07T22:43:04Z",
+      "score": 0.26595744680851063
+    }
+  ],
+  "closed": [
     {
       "slug": "will-bitcoin-dip-to-57pt5k-in-june-2026-623",
       "question": "Will Bitcoin dip to $57,500 in June?",
       "tag": "crypto",
       "side": "YES",
       "entry": 0.5895,
-      "tp": 0.6810066860945144,
-      "stop": 0.528495542603657,
-      "stake": 100.0,
-      "sigma": 0.0305,
-      "dist": 0.061,
-      "theme": "will bitcoin dip to in june",
-      "und": "BTC",
-      "dir": "DOWN",
+      "exit": 0.4365,
+      "pnlPct": -0.25954198473282447,
+      "pnlAmt": -25.954198473282446,
       "openedAt": "2026-06-07T20:14:55Z",
-      "score": 0.1752083333333333
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-06-07T22:43:04Z",
+      "reason": "STOP"
+    },
+    {
+      "slug": "us-announces-new-iran-agreementceasefire-extension-by-july-31",
+      "question": "US announces new Iran agreement/ceasefire extension by July 31?",
+      "tag": "autre",
+      "side": "YES",
+      "entry": 0.575,
+      "exit": 0.66,
+      "pnlPct": 0.14782608695652188,
+      "pnlAmt": 14.782608695652188,
+      "openedAt": "2026-06-06T23:43:37Z",
+      "closedAt": "2026-06-07T22:43:04Z",
+      "reason": "TP"
+    },
+    {
+      "slug": "will-bitcoin-reach-65000-in-june-2026-from-june-4",
+      "question": "Will Bitcoin reach $65,000 in June?",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.595,
+      "exit": 0.795,
+      "pnlPct": 0.33613445378151274,
+      "pnlAmt": 33.613445378151276,
+      "openedAt": "2026-06-06T09:36:22Z",
+      "closedAt": "2026-06-07T22:43:04Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-bitcoin-dip-to-55k-in-june-2026-779",
       "question": "Will Bitcoin dip to $55,000 in June?",
@@ -355,20 +394,22 @@
     "israel-x-hezbollah-permanent-peace-deal-by-june-30-2026": "2026-06-04T18:01:33Z",
     "will-ethereum-dip-to-1700-in-june-2026": "2026-06-05T04:51:17Z",
     "will-bitcoin-dip-to-60k-in-june-2026-453": "2026-06-05T08:36:53Z",
-    "will-bitcoin-dip-to-57pt5k-in-june-2026-623": "2026-06-07T01:57:02Z",
+    "will-bitcoin-dip-to-57pt5k-in-june-2026-623": "2026-06-07T22:43:04Z",
     "will-bitcoin-dip-to-55k-in-june-2026-779": "2026-06-07T20:14:54Z",
     "us-strike-on-cuba-by-december-31": "2026-06-06T14:11:14Z",
     "elon-musk-of-tweets-june-2-june-9-180-199": "2026-06-06T20:19:06Z",
     "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026": "2026-06-06T23:43:36Z",
-    "will-ethereum-dip-to-1200-in-june-2026": "2026-06-07T09:45:54Z"
+    "will-ethereum-dip-to-1200-in-june-2026": "2026-06-07T09:45:54Z",
+    "will-bitcoin-reach-65000-in-june-2026-from-june-4": "2026-06-07T22:43:04Z",
+    "us-announces-new-iran-agreementceasefire-extension-by-july-31": "2026-06-07T22:43:04Z"
   },
   "running": true,
-  "lastTick": "2026-06-07T21:37:45Z",
+  "lastTick": "2026-06-07T22:43:04Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 22.75,
-    "nClosed": 18,
-    "nWins": 7,
-    "winRate": 0.389
+    "realizedPnl": 45.19,
+    "nClosed": 21,
+    "nWins": 9,
+    "winRate": 0.429
   }
 }
