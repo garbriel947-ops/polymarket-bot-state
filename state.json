@@ -350,7 +350,7 @@
     "will-ethereum-dip-to-1200-in-june-2026": "2026-06-07T09:45:54Z"
   },
   "running": true,
-  "lastTick": "2026-06-07T14:58:19Z",
+  "lastTick": "2026-06-07T16:21:04Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": -9.53,
