@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 392.89026734823324,
+  "cash": 482.0794565374224,
   "open": [
     {
       "slug": "trump-orders-federal-review-of-ai-model-releases-by-june-30",
@@ -75,23 +75,6 @@
       "score": 0.54
     },
     {
-      "slug": "will-bitcoin-dip-to-57pt5k-in-june-2026-623",
-      "question": "Will Bitcoin dip to $57,500 in June?",
-      "tag": "crypto",
-      "side": "YES",
-      "entry": 0.666,
-      "tp": 0.7618868903656804,
-      "stop": 0.6020754064228798,
-      "stake": 100.0,
-      "sigma": 0.032,
-      "dist": 0.0639,
-      "theme": "will bitcoin dip to in june",
-      "und": "BTC",
-      "dir": "DOWN",
-      "openedAt": "2026-06-06T19:04:51Z",
-      "score": 0.26403333333333334
-    },
-    {
       "slug": "us-x-iran-permanent-peace-deal-by-july-31-2026-831-252",
       "question": "US x Iran permanent peace deal by July 31, 2026?",
       "tag": "autre",
@@ -127,6 +110,19 @@
     }
   ],
   "closed": [
+    {
+      "slug": "will-bitcoin-dip-to-57pt5k-in-june-2026-623",
+      "question": "Will Bitcoin dip to $57,500 in June?",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.666,
+      "exit": 0.594,
+      "pnlPct": -0.1081081081081082,
+      "pnlAmt": -10.81081081081082,
+      "openedAt": "2026-06-06T19:04:51Z",
+      "closedAt": "2026-06-07T01:57:02Z",
+      "reason": "STOP"
+    },
     {
       "slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026",
       "question": "Will Anthropic have the best AI model at the end of June 2026?",
@@ -333,19 +329,19 @@
     "israel-x-hezbollah-permanent-peace-deal-by-june-30-2026": "2026-06-04T18:01:33Z",
     "will-ethereum-dip-to-1700-in-june-2026": "2026-06-05T04:51:17Z",
     "will-bitcoin-dip-to-60k-in-june-2026-453": "2026-06-05T08:36:53Z",
-    "will-bitcoin-dip-to-57pt5k-in-june-2026-623": "2026-06-06T04:31:59Z",
+    "will-bitcoin-dip-to-57pt5k-in-june-2026-623": "2026-06-07T01:57:02Z",
     "will-bitcoin-dip-to-55k-in-june-2026-779": "2026-06-06T09:36:22Z",
     "us-strike-on-cuba-by-december-31": "2026-06-06T14:11:14Z",
     "elon-musk-of-tweets-june-2-june-9-180-199": "2026-06-06T20:19:06Z",
     "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026": "2026-06-06T23:43:36Z"
   },
   "running": true,
-  "lastTick": "2026-06-06T23:43:37Z",
+  "lastTick": "2026-06-07T01:57:02Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": -7.11,
-    "nClosed": 15,
+    "realizedPnl": -17.92,
+    "nClosed": 16,
     "nWins": 5,
-    "winRate": 0.333
+    "winRate": 0.312
   }
 }
