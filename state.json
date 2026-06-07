@@ -336,7 +336,7 @@
     "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026": "2026-06-06T23:43:36Z"
   },
   "running": true,
-  "lastTick": "2026-06-07T01:57:02Z",
+  "lastTick": "2026-06-07T06:25:48Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": -17.92,
