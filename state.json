@@ -404,7 +404,7 @@
     "us-announces-new-iran-agreementceasefire-extension-by-july-31": "2026-06-07T22:43:04Z"
   },
   "running": true,
-  "lastTick": "2026-06-08T06:58:17Z",
+  "lastTick": "2026-06-08T12:01:51Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 45.19,
