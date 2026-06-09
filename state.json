@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 727.5546768578479,
+  "cash": 627.5546768578479,
   "open": [
     {
       "slug": "trump-orders-federal-review-of-ai-model-releases-by-june-30",
@@ -90,6 +90,23 @@
       "dir": "NO",
       "openedAt": "2026-06-07T22:43:04Z",
       "score": 0.26595744680851063
+    },
+    {
+      "slug": "will-bitcoin-dip-to-57pt5k-in-june-2026-623",
+      "question": "Will Bitcoin dip to $57,500 in June?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.451,
+      "tp": 0.5411738855748623,
+      "stop": 0.39088407628342514,
+      "stake": 100.0,
+      "sigma": 0.0301,
+      "dist": 0.0601,
+      "theme": "will bitcoin dip to in june",
+      "und": "BTC",
+      "dir": "UP",
+      "openedAt": "2026-06-09T15:35:25Z",
+      "score": 0.15898098434004476
     }
   ],
   "closed": [
@@ -414,7 +431,7 @@
     "will-bitcoin-dip-to-52pt5k-in-june-2026-885": "2026-06-08T16:12:47Z"
   },
   "running": true,
-  "lastTick": "2026-06-09T12:23:34Z",
+  "lastTick": "2026-06-09T15:35:25Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 127.55,
