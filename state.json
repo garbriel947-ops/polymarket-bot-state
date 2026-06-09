@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 515.5546768578479,
+  "cash": 727.5546768578479,
   "open": [
     {
       "slug": "trump-orders-federal-review-of-ai-model-releases-by-june-30",
@@ -90,26 +90,22 @@
       "dir": "NO",
       "openedAt": "2026-06-07T22:43:04Z",
       "score": 0.26595744680851063
-    },
+    }
+  ],
+  "closed": [
     {
       "slug": "will-bitcoin-reach-65000-in-june-2026-from-june-4",
       "question": "Will Bitcoin reach $65,000 in June?",
       "tag": "crypto",
       "side": "NO",
       "entry": 0.125,
-      "tp": 0.2538488648429006,
-      "stop": 0.0391007567713996,
-      "stake": 100.0,
-      "sigma": 0.0429,
-      "dist": 0.0859,
-      "theme": "will bitcoin reach in june",
-      "und": "BTC",
-      "dir": "DOWN",
+      "exit": 0.265,
+      "pnlPct": 1.12,
+      "pnlAmt": 112.00000000000001,
       "openedAt": "2026-06-08T16:12:48Z",
-      "score": 1.1400000000000001
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-06-09T01:45:34Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-bitcoin-dip-to-52pt5k-in-june-2026-885",
       "question": "Will Bitcoin dip to $52,500 in June?",
@@ -413,17 +409,17 @@
     "elon-musk-of-tweets-june-2-june-9-180-199": "2026-06-06T20:19:06Z",
     "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026": "2026-06-06T23:43:36Z",
     "will-ethereum-dip-to-1200-in-june-2026": "2026-06-07T09:45:54Z",
-    "will-bitcoin-reach-65000-in-june-2026-from-june-4": "2026-06-07T22:43:04Z",
+    "will-bitcoin-reach-65000-in-june-2026-from-june-4": "2026-06-09T01:45:34Z",
     "us-announces-new-iran-agreementceasefire-extension-by-july-31": "2026-06-07T22:43:04Z",
     "will-bitcoin-dip-to-52pt5k-in-june-2026-885": "2026-06-08T16:12:47Z"
   },
   "running": true,
-  "lastTick": "2026-06-08T23:51:42Z",
+  "lastTick": "2026-06-09T01:45:34Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 15.55,
-    "nClosed": 22,
-    "nWins": 9,
-    "winRate": 0.409
+    "realizedPnl": 127.55,
+    "nClosed": 23,
+    "nWins": 10,
+    "winRate": 0.435
   }
 }
