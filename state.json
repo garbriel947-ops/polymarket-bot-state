@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 550.5036790751428,
+  "cash": 572.1499668231255,
   "open": [
     {
       "slug": "trump-orders-federal-review-of-ai-model-releases-by-june-30",
@@ -39,23 +39,6 @@
       "dir": "YES",
       "openedAt": "2026-06-04T18:01:34Z",
       "score": 0.2603571428571429
-    },
-    {
-      "slug": "us-x-iran-permanent-peace-deal-by-july-31-2026-831-252",
-      "question": "US x Iran permanent peace deal by July 31, 2026?",
-      "tag": "autre",
-      "side": "YES",
-      "entry": 0.295,
-      "tp": 0.355,
-      "stop": 0.255,
-      "stake": 100.0,
-      "sigma": 0.0078,
-      "dist": 0.04,
-      "theme": "us x iran permanent peace deal by july",
-      "und": "us x iran permanent peace deal by july",
-      "dir": "YES",
-      "openedAt": "2026-06-06T20:19:06Z",
-      "score": 0.15125
     },
     {
       "slug": "will-ethereum-dip-to-1200-in-june-2026",
@@ -92,23 +75,6 @@
       "score": 0.26595744680851063
     },
     {
-      "slug": "will-bitcoin-dip-to-55k-in-june-2026-779",
-      "question": "Will Bitcoin dip to $55,000 in June?",
-      "tag": "crypto",
-      "side": "YES",
-      "entry": 0.2405,
-      "tp": 0.30754049889215607,
-      "stop": 0.19580633407189593,
-      "stake": 100.0,
-      "sigma": 0.0223,
-      "dist": 0.0447,
-      "theme": "will bitcoin dip to in june",
-      "und": "BTC",
-      "dir": "DOWN",
-      "openedAt": "2026-06-11T04:59:54Z",
-      "score": 0.2800285714285714
-    },
-    {
       "slug": "wta-mcnally-sierra-2026-06-11",
       "question": "Libema Open: Caty McNally vs Solana Sierra",
       "tag": "crypto",
@@ -124,9 +90,69 @@
       "dir": "NEUTRAL",
       "openedAt": "2026-06-11T16:54:27Z",
       "score": 1.605
+    },
+    {
+      "slug": "us-announces-new-iran-agreementceasefire-extension-by-june-30-848-925-757-129-337",
+      "question": "US announces new Iran agreement/ceasefire extension by June 30?",
+      "tag": "autre",
+      "side": "NO",
+      "entry": 0.35,
+      "tp": 0.4345159914224666,
+      "stop": 0.2936560057183556,
+      "stake": 100.0,
+      "sigma": 0.0282,
+      "dist": 0.0563,
+      "theme": "us announces new iran agreement ceasefire extension by june",
+      "und": "us announces new iran agreement ceasefire extension by june",
+      "dir": "NO",
+      "openedAt": "2026-06-11T19:30:14Z",
+      "score": 1.315217391304348
+    },
+    {
+      "slug": "will-bitcoin-dip-to-57pt5k-in-june-2026-623",
+      "question": "Will Bitcoin dip to $57,500 in June?",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.3315,
+      "tp": 0.4111750575520242,
+      "stop": 0.2783832949653172,
+      "stake": 100.0,
+      "sigma": 0.0266,
+      "dist": 0.0531,
+      "theme": "will bitcoin dip to in june",
+      "und": "BTC",
+      "dir": "DOWN",
+      "openedAt": "2026-06-11T19:30:14Z",
+      "score": 1.0619999999999998
     }
   ],
   "closed": [
+    {
+      "slug": "will-bitcoin-dip-to-55k-in-june-2026-779",
+      "question": "Will Bitcoin dip to $55,000 in June?",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.2405,
+      "exit": 0.1825,
+      "pnlPct": -0.24116424116424115,
+      "pnlAmt": -24.116424116424113,
+      "openedAt": "2026-06-11T04:59:54Z",
+      "closedAt": "2026-06-11T19:30:13Z",
+      "reason": "STOP"
+    },
+    {
+      "slug": "us-x-iran-permanent-peace-deal-by-july-31-2026-831-252",
+      "question": "US x Iran permanent peace deal by July 31, 2026?",
+      "tag": "autre",
+      "side": "YES",
+      "entry": 0.295,
+      "exit": 0.43,
+      "pnlPct": 0.45762711864406785,
+      "pnlAmt": 45.76271186440678,
+      "openedAt": "2026-06-06T20:19:06Z",
+      "closedAt": "2026-06-11T19:30:13Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-bitcoin-dip-to-57pt5k-in-june-2026-623",
       "question": "Will Bitcoin dip to $57,500 in June?",
@@ -451,22 +477,23 @@
     "will-ethereum-dip-to-1700-in-june-2026": "2026-06-05T04:51:17Z",
     "will-bitcoin-dip-to-60k-in-june-2026-453": "2026-06-05T08:36:53Z",
     "will-bitcoin-dip-to-57pt5k-in-june-2026-623": "2026-06-11T04:59:54Z",
-    "will-bitcoin-dip-to-55k-in-june-2026-779": "2026-06-07T20:14:54Z",
+    "will-bitcoin-dip-to-55k-in-june-2026-779": "2026-06-11T19:30:13Z",
     "us-strike-on-cuba-by-december-31": "2026-06-06T14:11:14Z",
     "elon-musk-of-tweets-june-2-june-9-180-199": "2026-06-06T20:19:06Z",
     "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026": "2026-06-06T23:43:36Z",
     "will-ethereum-dip-to-1200-in-june-2026": "2026-06-07T09:45:54Z",
     "will-bitcoin-reach-65000-in-june-2026-from-june-4": "2026-06-09T01:45:34Z",
     "us-announces-new-iran-agreementceasefire-extension-by-july-31": "2026-06-07T22:43:04Z",
-    "will-bitcoin-dip-to-52pt5k-in-june-2026-885": "2026-06-08T16:12:47Z"
+    "will-bitcoin-dip-to-52pt5k-in-june-2026-885": "2026-06-08T16:12:47Z",
+    "us-x-iran-permanent-peace-deal-by-july-31-2026-831-252": "2026-06-11T19:30:13Z"
   },
   "running": true,
-  "lastTick": "2026-06-11T16:54:27Z",
+  "lastTick": "2026-06-11T19:30:14Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 150.5,
-    "nClosed": 24,
-    "nWins": 11,
-    "winRate": 0.458
+    "realizedPnl": 172.15,
+    "nClosed": 26,
+    "nWins": 12,
+    "winRate": 0.462
   }
 }
