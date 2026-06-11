@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 650.5036790751428,
+  "cash": 550.5036790751428,
   "open": [
     {
       "slug": "trump-orders-federal-review-of-ai-model-releases-by-june-30",
@@ -107,6 +107,23 @@
       "dir": "DOWN",
       "openedAt": "2026-06-11T04:59:54Z",
       "score": 0.2800285714285714
+    },
+    {
+      "slug": "wta-mcnally-sierra-2026-06-11",
+      "question": "Libema Open: Caty McNally vs Solana Sierra",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.145,
+      "tp": 0.3066310903724899,
+      "stop": 0.037245939751673396,
+      "stake": 100.0,
+      "sigma": 0.0539,
+      "dist": 0.1078,
+      "theme": "libema open caty mcnally vs solana sierra",
+      "und": "SOL",
+      "dir": "NEUTRAL",
+      "openedAt": "2026-06-11T16:54:27Z",
+      "score": 1.605
     }
   ],
   "closed": [
@@ -444,7 +461,7 @@
     "will-bitcoin-dip-to-52pt5k-in-june-2026-885": "2026-06-08T16:12:47Z"
   },
   "running": true,
-  "lastTick": "2026-06-11T12:56:25Z",
+  "lastTick": "2026-06-11T16:54:27Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 150.5,
