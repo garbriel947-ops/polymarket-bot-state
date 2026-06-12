@@ -484,7 +484,7 @@
     "us-x-iran-permanent-peace-deal-by-july-31-2026-831-252": "2026-06-11T19:30:13Z"
   },
   "running": true,
-  "lastTick": "2026-06-11T23:09:16Z",
+  "lastTick": "2026-06-12T01:38:30Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 130.71,
