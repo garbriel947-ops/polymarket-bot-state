@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 613.5571237069557,
+  "cash": 721.8329857759213,
   "open": [
     {
       "slug": "trump-orders-federal-review-of-ai-model-releases-by-june-30",
@@ -73,26 +73,22 @@
       "dir": "NO",
       "openedAt": "2026-06-11T19:30:14Z",
       "score": 1.315217391304348
-    },
+    }
+  ],
+  "closed": [
     {
       "slug": "will-bitcoin-reach-70000-in-june-2026-from-june-2",
       "question": "Will Bitcoin reach $70,000 in June?",
       "tag": "crypto",
       "side": "NO",
       "entry": 0.725,
-      "tp": 0.7849999999999999,
-      "stop": 0.6849999999999999,
-      "stake": 100.0,
-      "sigma": 0.0103,
-      "dist": 0.04,
-      "theme": "will bitcoin reach in june",
-      "und": "BTC",
-      "dir": "DOWN",
+      "exit": 0.785,
+      "pnlPct": 0.08275862068965525,
+      "pnlAmt": 8.275862068965525,
       "openedAt": "2026-06-14T11:19:27Z",
-      "score": 0.16
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-06-14T19:53:47Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-bitcoin-dip-to-57pt5k-in-june-2026-623",
       "question": "Will Bitcoin dip to $57,500 in June?",
@@ -477,7 +473,7 @@
     "will-bitcoin-dip-to-60k-in-june-2026": "2026-06-04T00:15:51Z",
     "bitcoin-above-64k-on-june-6-2026": "2026-06-04T09:01:38Z",
     "will-bitcoin-reach-72pt5k-in-june-2026": "2026-06-04T12:11:06Z",
-    "will-bitcoin-reach-70000-in-june-2026-from-june-2": "2026-06-05T14:11:26Z",
+    "will-bitcoin-reach-70000-in-june-2026-from-june-2": "2026-06-14T19:53:47Z",
     "israel-x-hezbollah-permanent-peace-deal-by-june-30-2026": "2026-06-04T18:01:33Z",
     "will-ethereum-dip-to-1700-in-june-2026": "2026-06-05T04:51:17Z",
     "will-bitcoin-dip-to-60k-in-june-2026-453": "2026-06-05T08:36:53Z",
@@ -494,12 +490,12 @@
     "wta-mcnally-sierra-2026-06-11": "2026-06-12T10:43:11Z"
   },
   "running": true,
-  "lastTick": "2026-06-14T18:04:27Z",
+  "lastTick": "2026-06-14T19:53:47Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 13.56,
-    "nClosed": 29,
-    "nWins": 12,
-    "winRate": 0.414
+    "realizedPnl": 21.84,
+    "nClosed": 30,
+    "nWins": 13,
+    "winRate": 0.433
   }
 }
