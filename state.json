@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 721.8329857759213,
+  "cash": 621.8329857759213,
   "open": [
     {
       "slug": "trump-orders-federal-review-of-ai-model-releases-by-june-30",
@@ -73,6 +73,23 @@
       "dir": "NO",
       "openedAt": "2026-06-11T19:30:14Z",
       "score": 1.315217391304348
+    },
+    {
+      "slug": "will-bitcoin-reach-67500-in-june-2026-from-june-4",
+      "question": "Will Bitcoin reach $67,500 in June?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.105,
+      "tp": 0.16653852286103696,
+      "stop": 0.06397431809264202,
+      "stake": 100.0,
+      "sigma": 0.0205,
+      "dist": 0.041,
+      "theme": "will bitcoin reach in june",
+      "und": "BTC",
+      "dir": "DOWN",
+      "openedAt": "2026-06-15T13:35:25Z",
+      "score": 0.5731578947368422
     }
   ],
   "closed": [
@@ -490,7 +507,7 @@
     "wta-mcnally-sierra-2026-06-11": "2026-06-12T10:43:11Z"
   },
   "running": true,
-  "lastTick": "2026-06-15T07:33:47Z",
+  "lastTick": "2026-06-15T13:35:25Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 21.84,
