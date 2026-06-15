@@ -507,7 +507,7 @@
     "wta-mcnally-sierra-2026-06-11": "2026-06-12T10:43:11Z"
   },
   "running": true,
-  "lastTick": "2026-06-15T13:35:25Z",
+  "lastTick": "2026-06-15T18:13:55Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 21.84,
