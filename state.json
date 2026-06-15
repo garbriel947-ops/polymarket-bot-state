@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 621.8329857759213,
+  "cash": 688.499652442588,
   "open": [
     {
       "slug": "trump-orders-federal-review-of-ai-model-releases-by-june-30",
@@ -75,24 +75,37 @@
       "score": 1.315217391304348
     },
     {
+      "slug": "will-bitcoin-reach-70000-in-june-2026-from-june-2",
+      "question": "Will Bitcoin reach $70,000 in June?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.555,
+      "tp": 0.615,
+      "stop": 0.515,
+      "stake": 100.0,
+      "sigma": 0.0158,
+      "dist": 0.04,
+      "theme": "will bitcoin reach in june",
+      "und": "BTC",
+      "dir": "DOWN",
+      "openedAt": "2026-06-15T21:24:09Z",
+      "score": 0.24199999999999997
+    }
+  ],
+  "closed": [
+    {
       "slug": "will-bitcoin-reach-67500-in-june-2026-from-june-4",
       "question": "Will Bitcoin reach $67,500 in June?",
       "tag": "crypto",
       "side": "NO",
       "entry": 0.105,
-      "tp": 0.16653852286103696,
-      "stop": 0.06397431809264202,
-      "stake": 100.0,
-      "sigma": 0.0205,
-      "dist": 0.041,
-      "theme": "will bitcoin reach in june",
-      "und": "BTC",
-      "dir": "DOWN",
+      "exit": 0.175,
+      "pnlPct": 0.6666666666666666,
+      "pnlAmt": 66.66666666666666,
       "openedAt": "2026-06-15T13:35:25Z",
-      "score": 0.5731578947368422
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-06-15T21:24:09Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-bitcoin-reach-70000-in-june-2026-from-june-2",
       "question": "Will Bitcoin reach $70,000 in June?",
@@ -504,15 +517,16 @@
     "us-announces-new-iran-agreementceasefire-extension-by-july-31": "2026-06-07T22:43:04Z",
     "will-bitcoin-dip-to-52pt5k-in-june-2026-885": "2026-06-08T16:12:47Z",
     "us-x-iran-permanent-peace-deal-by-july-31-2026-831-252": "2026-06-11T19:30:13Z",
-    "wta-mcnally-sierra-2026-06-11": "2026-06-12T10:43:11Z"
+    "wta-mcnally-sierra-2026-06-11": "2026-06-12T10:43:11Z",
+    "will-bitcoin-reach-67500-in-june-2026-from-june-4": "2026-06-15T21:24:09Z"
   },
   "running": true,
-  "lastTick": "2026-06-15T18:13:55Z",
+  "lastTick": "2026-06-15T21:24:09Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 21.84,
-    "nClosed": 30,
-    "nWins": 13,
-    "winRate": 0.433
+    "realizedPnl": 88.51,
+    "nClosed": 31,
+    "nWins": 14,
+    "winRate": 0.452
   }
 }
