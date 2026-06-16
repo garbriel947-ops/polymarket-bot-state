@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 688.499652442588,
+  "cash": 715.5266794696149,
   "open": [
     {
       "slug": "trump-orders-federal-review-of-ai-model-releases-by-june-30",
@@ -75,24 +75,37 @@
       "score": 1.315217391304348
     },
     {
+      "slug": "will-bitcoin-reach-67500-in-june-2026-from-june-4",
+      "question": "Will Bitcoin reach $67,500 in June?",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.665,
+      "tp": 0.7388992350351173,
+      "stop": 0.6157338433099219,
+      "stake": 100.0,
+      "sigma": 0.0246,
+      "dist": 0.0493,
+      "theme": "will bitcoin reach in june",
+      "und": "BTC",
+      "dir": "UP",
+      "openedAt": "2026-06-16T17:27:42Z",
+      "score": 0.252
+    }
+  ],
+  "closed": [
+    {
       "slug": "will-bitcoin-reach-70000-in-june-2026-from-june-2",
       "question": "Will Bitcoin reach $70,000 in June?",
       "tag": "crypto",
       "side": "NO",
       "entry": 0.555,
-      "tp": 0.615,
-      "stop": 0.515,
-      "stake": 100.0,
-      "sigma": 0.0158,
-      "dist": 0.04,
-      "theme": "will bitcoin reach in june",
-      "und": "BTC",
-      "dir": "DOWN",
+      "exit": 0.705,
+      "pnlPct": 0.27027027027027006,
+      "pnlAmt": 27.027027027027007,
       "openedAt": "2026-06-15T21:24:09Z",
-      "score": 0.24199999999999997
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-06-16T17:27:42Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-bitcoin-reach-67500-in-june-2026-from-june-4",
       "question": "Will Bitcoin reach $67,500 in June?",
@@ -503,7 +516,7 @@
     "will-bitcoin-dip-to-60k-in-june-2026": "2026-06-04T00:15:51Z",
     "bitcoin-above-64k-on-june-6-2026": "2026-06-04T09:01:38Z",
     "will-bitcoin-reach-72pt5k-in-june-2026": "2026-06-04T12:11:06Z",
-    "will-bitcoin-reach-70000-in-june-2026-from-june-2": "2026-06-14T19:53:47Z",
+    "will-bitcoin-reach-70000-in-june-2026-from-june-2": "2026-06-16T17:27:42Z",
     "israel-x-hezbollah-permanent-peace-deal-by-june-30-2026": "2026-06-04T18:01:33Z",
     "will-ethereum-dip-to-1700-in-june-2026": "2026-06-05T04:51:17Z",
     "will-bitcoin-dip-to-60k-in-june-2026-453": "2026-06-05T08:36:53Z",
@@ -521,12 +534,12 @@
     "will-bitcoin-reach-67500-in-june-2026-from-june-4": "2026-06-15T21:24:09Z"
   },
   "running": true,
-  "lastTick": "2026-06-16T12:22:12Z",
+  "lastTick": "2026-06-16T17:27:42Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 88.51,
-    "nClosed": 31,
-    "nWins": 14,
-    "winRate": 0.452
+    "realizedPnl": 115.54,
+    "nClosed": 32,
+    "nWins": 15,
+    "winRate": 0.469
   }
 }
