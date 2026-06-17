@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 697.48156668766,
+  "cash": 848.545396474894,
   "open": [
     {
       "slug": "trump-orders-federal-review-of-ai-model-releases-by-june-30",
@@ -73,26 +73,22 @@
       "dir": "NO",
       "openedAt": "2026-06-11T19:30:14Z",
       "score": 1.315217391304348
-    },
+    }
+  ],
+  "closed": [
     {
       "slug": "will-bitcoin-reach-70000-in-june-2026-from-june-2",
       "question": "Will Bitcoin reach $70,000 in June?",
       "tag": "crypto",
       "side": "YES",
       "entry": 0.235,
-      "tp": 0.295,
-      "stop": 0.19499999999999998,
-      "stake": 100.0,
-      "sigma": 0.0175,
-      "dist": 0.04,
-      "theme": "will bitcoin reach in june",
-      "und": "BTC",
-      "dir": "UP",
+      "exit": 0.355,
+      "pnlPct": 0.5106382978723404,
+      "pnlAmt": 51.06382978723404,
       "openedAt": "2026-06-17T09:14:47Z",
-      "score": 0.735
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-06-17T16:40:16Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-bitcoin-reach-67500-in-june-2026-from-june-4",
       "question": "Will Bitcoin reach $67,500 in June?",
@@ -529,7 +525,7 @@
     "will-bitcoin-dip-to-60k-in-june-2026": "2026-06-04T00:15:51Z",
     "bitcoin-above-64k-on-june-6-2026": "2026-06-04T09:01:38Z",
     "will-bitcoin-reach-72pt5k-in-june-2026": "2026-06-04T12:11:06Z",
-    "will-bitcoin-reach-70000-in-june-2026-from-june-2": "2026-06-16T17:27:42Z",
+    "will-bitcoin-reach-70000-in-june-2026-from-june-2": "2026-06-17T16:40:16Z",
     "israel-x-hezbollah-permanent-peace-deal-by-june-30-2026": "2026-06-04T18:01:33Z",
     "will-ethereum-dip-to-1700-in-june-2026": "2026-06-05T04:51:17Z",
     "will-bitcoin-dip-to-60k-in-june-2026-453": "2026-06-05T08:36:53Z",
@@ -547,12 +543,12 @@
     "will-bitcoin-reach-67500-in-june-2026-from-june-4": "2026-06-17T09:14:47Z"
   },
   "running": true,
-  "lastTick": "2026-06-17T12:58:10Z",
+  "lastTick": "2026-06-17T16:40:16Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 97.49,
-    "nClosed": 33,
-    "nWins": 15,
-    "winRate": 0.455
+    "realizedPnl": 148.55,
+    "nClosed": 34,
+    "nWins": 16,
+    "winRate": 0.471
   }
 }
