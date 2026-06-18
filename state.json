@@ -21,25 +21,8 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 703.1005187719518,
+  "cash": 695.5516127300123,
   "open": [
-    {
-      "slug": "trump-orders-federal-review-of-ai-model-releases-by-june-30",
-      "question": "Trump orders federal review of AI model releases by June 30?",
-      "tag": "autre",
-      "side": "YES",
-      "entry": 0.355,
-      "tp": 0.554455365680229,
-      "stop": 0.22202975621318063,
-      "stake": 100.0,
-      "sigma": 0.0665,
-      "dist": 0.133,
-      "theme": "trump orders federal review of ai model releases by june",
-      "und": "trump orders federal review of ai model releases by june",
-      "dir": "YES",
-      "openedAt": "2026-06-04T18:01:34Z",
-      "score": 0.2603571428571429
-    },
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
       "question": "Israel closes its airspace by June 30?",
@@ -75,24 +58,67 @@
       "score": 1.315217391304348
     },
     {
+      "slug": "will-bitcoin-reach-67500-in-june-2026-from-june-4",
+      "question": "Will Bitcoin reach $67,500 in June?",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.265,
+      "tp": 0.3521677364953013,
+      "stop": 0.20688817566979914,
+      "stake": 100.0,
+      "sigma": 0.0291,
+      "dist": 0.0581,
+      "theme": "will bitcoin reach in june",
+      "und": "BTC",
+      "dir": "UP",
+      "openedAt": "2026-06-18T18:33:05Z",
+      "score": 0.48166666666666674
+    },
+    {
+      "slug": "will-spacexs-valuation-hit-high-3pt0t-by-june-30",
+      "question": "Will SpaceX's valuation hit (HIGH) $3.0T by June 30?",
+      "tag": "autre",
+      "side": "YES",
+      "entry": 0.124,
+      "tp": 0.23612744292381171,
+      "stop": 0.04924837138412552,
+      "stake": 100.0,
+      "sigma": 0.0374,
+      "dist": 0.0748,
+      "theme": "will spacex s valuation hit high t by june",
+      "und": "will spacex s valuation hit high t by june",
+      "dir": "YES",
+      "openedAt": "2026-06-18T18:33:05Z",
+      "score": 0.3946181318681319
+    }
+  ],
+  "closed": [
+    {
       "slug": "will-bitcoin-dip-to-57pt5k-in-june-2026-623",
       "question": "Will Bitcoin dip to $57,500 in June?",
       "tag": "crypto",
       "side": "NO",
       "entry": 0.6505,
-      "tp": 0.7104999999999999,
-      "stop": 0.6104999999999999,
-      "stake": 100.0,
-      "sigma": 0.0156,
-      "dist": 0.04,
-      "theme": "will bitcoin dip to in june",
-      "und": "BTC",
-      "dir": "UP",
+      "exit": 0.7205,
+      "pnlPct": 0.10760953112990018,
+      "pnlAmt": 10.760953112990018,
       "openedAt": "2026-06-18T16:04:10Z",
-      "score": 1.170520231213873
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-06-18T18:33:05Z",
+      "reason": "TP"
+    },
+    {
+      "slug": "trump-orders-federal-review-of-ai-model-releases-by-june-30",
+      "question": "Trump orders federal review of AI model releases by June 30?",
+      "tag": "autre",
+      "side": "YES",
+      "entry": 0.355,
+      "exit": 0.29,
+      "pnlPct": -0.18309859154929578,
+      "pnlAmt": -18.30985915492958,
+      "openedAt": "2026-06-04T18:01:34Z",
+      "closedAt": "2026-06-18T18:33:05Z",
+      "reason": "TIME"
+    },
     {
       "slug": "will-bitcoin-reach-70000-in-june-2026-from-june-2",
       "question": "Will Bitcoin reach $70,000 in June?",
@@ -572,7 +598,7 @@
     "israel-x-hezbollah-permanent-peace-deal-by-june-30-2026": "2026-06-04T18:01:33Z",
     "will-ethereum-dip-to-1700-in-june-2026": "2026-06-05T04:51:17Z",
     "will-bitcoin-dip-to-60k-in-june-2026-453": "2026-06-05T08:36:53Z",
-    "will-bitcoin-dip-to-57pt5k-in-june-2026-623": "2026-06-12T10:43:11Z",
+    "will-bitcoin-dip-to-57pt5k-in-june-2026-623": "2026-06-18T18:33:05Z",
     "will-bitcoin-dip-to-55k-in-june-2026-779": "2026-06-11T19:30:13Z",
     "us-strike-on-cuba-by-december-31": "2026-06-06T14:11:14Z",
     "elon-musk-of-tweets-june-2-june-9-180-199": "2026-06-06T20:19:06Z",
@@ -583,15 +609,16 @@
     "will-bitcoin-dip-to-52pt5k-in-june-2026-885": "2026-06-08T16:12:47Z",
     "us-x-iran-permanent-peace-deal-by-july-31-2026-831-252": "2026-06-11T19:30:13Z",
     "wta-mcnally-sierra-2026-06-11": "2026-06-12T10:43:11Z",
-    "will-bitcoin-reach-67500-in-june-2026-from-june-4": "2026-06-18T05:03:55Z"
+    "will-bitcoin-reach-67500-in-june-2026-from-june-4": "2026-06-18T05:03:55Z",
+    "trump-orders-federal-review-of-ai-model-releases-by-june-30": "2026-06-18T18:33:05Z"
   },
   "running": true,
-  "lastTick": "2026-06-18T16:04:10Z",
+  "lastTick": "2026-06-18T18:33:05Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 103.1,
-    "nClosed": 36,
-    "nWins": 16,
-    "winRate": 0.444
+    "realizedPnl": 95.55,
+    "nClosed": 38,
+    "nWins": 17,
+    "winRate": 0.447
   }
 }
