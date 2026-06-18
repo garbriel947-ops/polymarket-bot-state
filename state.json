@@ -573,7 +573,7 @@
     "will-bitcoin-reach-67500-in-june-2026-from-june-4": "2026-06-18T05:03:55Z"
   },
   "running": true,
-  "lastTick": "2026-06-18T09:23:37Z",
+  "lastTick": "2026-06-18T12:35:39Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 135.36,
