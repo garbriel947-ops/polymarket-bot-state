@@ -639,7 +639,7 @@
     "trump-orders-federal-review-of-ai-model-releases-by-june-30": "2026-06-18T18:33:05Z"
   },
   "running": true,
-  "lastTick": "2026-06-21T10:39:00Z",
+  "lastTick": "2026-06-21T12:28:59Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 113.29,
