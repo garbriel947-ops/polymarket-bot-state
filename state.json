@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 713.2874617866161,
+  "cash": 865.0661179130983,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -73,26 +73,22 @@
       "dir": "YES",
       "openedAt": "2026-06-18T18:33:05Z",
       "score": 0.3946181318681319
-    },
+    }
+  ],
+  "closed": [
     {
       "slug": "will-bitcoin-dip-to-57pt5k-in-june-2026-623",
       "question": "Will Bitcoin dip to $57,500 in June?",
       "tag": "crypto",
       "side": "YES",
       "entry": 0.1265,
-      "tp": 0.1865,
-      "stop": 0.0865,
-      "stake": 100.0,
-      "sigma": 0.0154,
-      "dist": 0.04,
-      "theme": "will bitcoin dip to in june",
-      "und": "BTC",
-      "dir": "DOWN",
+      "exit": 0.192,
+      "pnlPct": 0.5177865612648221,
+      "pnlAmt": 51.77865612648221,
       "openedAt": "2026-06-20T22:15:46Z",
-      "score": 0.1321898734177215
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-06-21T23:57:23Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-bitcoin-reach-67500-in-june-2026-from-june-4",
       "question": "Will Bitcoin reach $67,500 in June?",
@@ -624,7 +620,7 @@
     "israel-x-hezbollah-permanent-peace-deal-by-june-30-2026": "2026-06-04T18:01:33Z",
     "will-ethereum-dip-to-1700-in-june-2026": "2026-06-05T04:51:17Z",
     "will-bitcoin-dip-to-60k-in-june-2026-453": "2026-06-05T08:36:53Z",
-    "will-bitcoin-dip-to-57pt5k-in-june-2026-623": "2026-06-20T06:12:38Z",
+    "will-bitcoin-dip-to-57pt5k-in-june-2026-623": "2026-06-21T23:57:23Z",
     "will-bitcoin-dip-to-55k-in-june-2026-779": "2026-06-11T19:30:13Z",
     "us-strike-on-cuba-by-december-31": "2026-06-06T14:11:14Z",
     "elon-musk-of-tweets-june-2-june-9-180-199": "2026-06-06T20:19:06Z",
@@ -639,12 +635,12 @@
     "trump-orders-federal-review-of-ai-model-releases-by-june-30": "2026-06-18T18:33:05Z"
   },
   "running": true,
-  "lastTick": "2026-06-21T22:40:59Z",
+  "lastTick": "2026-06-21T23:57:23Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 113.29,
-    "nClosed": 40,
-    "nWins": 18,
-    "winRate": 0.45
+    "realizedPnl": 165.07,
+    "nClosed": 41,
+    "nWins": 19,
+    "winRate": 0.463
   }
 }
