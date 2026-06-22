@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 865.0661179130983,
+  "cash": 803.3725695260015,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -58,24 +58,37 @@
       "score": 1.315217391304348
     },
     {
+      "slug": "will-gustavo-petro-be-the-next-leader-out-before-2027-576",
+      "question": "Will Gustavo Petro be the next leader out before 2027?",
+      "tag": "autre",
+      "side": "YES",
+      "entry": 0.135,
+      "tp": 0.2457596116054125,
+      "stop": 0.06116025892972503,
+      "stake": 100.0,
+      "sigma": 0.0369,
+      "dist": 0.0738,
+      "theme": "will gustavo petro be the next leader out before",
+      "und": "will gustavo petro be the next leader out before",
+      "dir": "YES",
+      "openedAt": "2026-06-22T15:34:14Z",
+      "score": 0.5667222222222222
+    }
+  ],
+  "closed": [
+    {
       "slug": "will-spacexs-valuation-hit-high-3pt0t-by-june-30",
       "question": "Will SpaceX's valuation hit (HIGH) $3.0T by June 30?",
       "tag": "autre",
       "side": "YES",
       "entry": 0.124,
-      "tp": 0.23612744292381171,
-      "stop": 0.04924837138412552,
-      "stake": 100.0,
-      "sigma": 0.0374,
-      "dist": 0.0748,
-      "theme": "will spacex s valuation hit high t by june",
-      "und": "will spacex s valuation hit high t by june",
-      "dir": "YES",
+      "exit": 0.0475,
+      "pnlPct": -0.6169354838709677,
+      "pnlAmt": -61.693548387096776,
       "openedAt": "2026-06-18T18:33:05Z",
-      "score": 0.3946181318681319
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-06-22T15:34:13Z",
+      "reason": "STOP"
+    },
     {
       "slug": "will-bitcoin-dip-to-57pt5k-in-june-2026-623",
       "question": "Will Bitcoin dip to $57,500 in June?",
@@ -632,15 +645,16 @@
     "us-x-iran-permanent-peace-deal-by-july-31-2026-831-252": "2026-06-11T19:30:13Z",
     "wta-mcnally-sierra-2026-06-11": "2026-06-12T10:43:11Z",
     "will-bitcoin-reach-67500-in-june-2026-from-june-4": "2026-06-20T23:37:39Z",
-    "trump-orders-federal-review-of-ai-model-releases-by-june-30": "2026-06-18T18:33:05Z"
+    "trump-orders-federal-review-of-ai-model-releases-by-june-30": "2026-06-18T18:33:05Z",
+    "will-spacexs-valuation-hit-high-3pt0t-by-june-30": "2026-06-22T15:34:13Z"
   },
   "running": true,
-  "lastTick": "2026-06-22T10:21:14Z",
+  "lastTick": "2026-06-22T15:34:14Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 165.07,
-    "nClosed": 41,
+    "realizedPnl": 103.38,
+    "nClosed": 42,
     "nWins": 19,
-    "winRate": 0.463
+    "winRate": 0.452
   }
 }
