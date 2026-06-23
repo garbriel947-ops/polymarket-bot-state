@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 703.3725695260015,
+  "cash": 884.4670968891855,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -73,26 +73,22 @@
       "dir": "YES",
       "openedAt": "2026-06-22T15:34:14Z",
       "score": 0.5667222222222222
-    },
+    }
+  ],
+  "closed": [
     {
       "slug": "will-bitcoin-dip-to-57pt5k-in-june-2026-623",
       "question": "Will Bitcoin dip to $57,500 in June?",
       "tag": "crypto",
       "side": "YES",
       "entry": 0.1005,
-      "tp": 0.1605,
-      "stop": 0.060500000000000005,
-      "stake": 100.0,
-      "sigma": 0.0147,
-      "dist": 0.04,
-      "theme": "will bitcoin dip to in june",
-      "und": "BTC",
-      "dir": "DOWN",
+      "exit": 0.182,
+      "pnlPct": 0.8109452736318407,
+      "pnlAmt": 81.09452736318407,
       "openedAt": "2026-06-23T00:17:44Z",
-      "score": 0.22886428571428571
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-06-23T08:05:41Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-spacexs-valuation-hit-high-3pt0t-by-june-30",
       "question": "Will SpaceX's valuation hit (HIGH) $3.0T by June 30?",
@@ -650,7 +646,7 @@
     "israel-x-hezbollah-permanent-peace-deal-by-june-30-2026": "2026-06-04T18:01:33Z",
     "will-ethereum-dip-to-1700-in-june-2026": "2026-06-05T04:51:17Z",
     "will-bitcoin-dip-to-60k-in-june-2026-453": "2026-06-05T08:36:53Z",
-    "will-bitcoin-dip-to-57pt5k-in-june-2026-623": "2026-06-21T23:57:23Z",
+    "will-bitcoin-dip-to-57pt5k-in-june-2026-623": "2026-06-23T08:05:41Z",
     "will-bitcoin-dip-to-55k-in-june-2026-779": "2026-06-11T19:30:13Z",
     "us-strike-on-cuba-by-december-31": "2026-06-06T14:11:14Z",
     "elon-musk-of-tweets-june-2-june-9-180-199": "2026-06-06T20:19:06Z",
@@ -666,12 +662,12 @@
     "will-spacexs-valuation-hit-high-3pt0t-by-june-30": "2026-06-22T15:34:13Z"
   },
   "running": true,
-  "lastTick": "2026-06-23T04:33:45Z",
+  "lastTick": "2026-06-23T08:05:41Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 103.38,
-    "nClosed": 42,
-    "nWins": 19,
-    "winRate": 0.452
+    "realizedPnl": 184.47,
+    "nClosed": 43,
+    "nWins": 20,
+    "winRate": 0.465
   }
 }
