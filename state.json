@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 515.9403739637285,
+  "cash": 741.6313901739572,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -73,6 +73,21 @@
       "dir": "NO",
       "openedAt": "2026-06-24T17:32:42Z",
       "score": 1.3248076923076921
+    }
+  ],
+  "closed": [
+    {
+      "slug": "will-ethereum-dip-to-1400-in-june-2026",
+      "question": "Will Ethereum dip to $1,400 in June?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.7985,
+      "exit": 0.8855,
+      "pnlPct": 0.10895428929242325,
+      "pnlAmt": 10.895428929242325,
+      "openedAt": "2026-06-24T19:15:38Z",
+      "closedAt": "2026-06-24T20:59:02Z",
+      "reason": "TP"
     },
     {
       "slug": "will-bitcoin-dip-to-55k-in-june-2026-779",
@@ -80,36 +95,13 @@
       "tag": "crypto",
       "side": "NO",
       "entry": 0.7705,
-      "tp": 0.8305,
-      "stop": 0.7304999999999999,
-      "stake": 100.0,
-      "sigma": 0.0098,
-      "dist": 0.04,
-      "theme": "will bitcoin dip to in june",
-      "und": "BTC",
-      "dir": "UP",
+      "exit": 0.8845,
+      "pnlPct": 0.14795587280986372,
+      "pnlAmt": 14.795587280986371,
       "openedAt": "2026-06-24T17:32:42Z",
-      "score": 0.26472960372960375
+      "closedAt": "2026-06-24T20:59:02Z",
+      "reason": "TP"
     },
-    {
-      "slug": "will-ethereum-dip-to-1400-in-june-2026",
-      "question": "Will Ethereum dip to $1,400 in June?",
-      "tag": "crypto",
-      "side": "NO",
-      "entry": 0.7985,
-      "tp": 0.8585,
-      "stop": 0.7585,
-      "stake": 100.0,
-      "sigma": 0.0102,
-      "dist": 0.04,
-      "theme": "will ethereum dip to in june",
-      "und": "ETH",
-      "dir": "UP",
-      "openedAt": "2026-06-24T19:15:38Z",
-      "score": 0.12465161290322582
-    }
-  ],
-  "closed": [
     {
       "slug": "will-bitcoin-dip-to-57pt5k-in-june-2026-623",
       "question": "Will Bitcoin dip to $57,500 in June?",
@@ -733,7 +725,7 @@
     "will-ethereum-dip-to-1700-in-june-2026": "2026-06-05T04:51:17Z",
     "will-bitcoin-dip-to-60k-in-june-2026-453": "2026-06-05T08:36:53Z",
     "will-bitcoin-dip-to-57pt5k-in-june-2026-623": "2026-06-24T17:32:42Z",
-    "will-bitcoin-dip-to-55k-in-june-2026-779": "2026-06-11T19:30:13Z",
+    "will-bitcoin-dip-to-55k-in-june-2026-779": "2026-06-24T20:59:02Z",
     "us-strike-on-cuba-by-december-31": "2026-06-06T14:11:14Z",
     "elon-musk-of-tweets-june-2-june-9-180-199": "2026-06-06T20:19:06Z",
     "will-anthropic-have-the-best-ai-model-at-the-end-of-june-2026": "2026-06-06T23:43:36Z",
@@ -747,15 +739,16 @@
     "trump-orders-federal-review-of-ai-model-releases-by-june-30": "2026-06-18T18:33:05Z",
     "will-spacexs-valuation-hit-high-3pt0t-by-june-30": "2026-06-22T15:34:13Z",
     "will-gustavo-petro-be-the-next-leader-out-before-2027-576": "2026-06-24T15:42:48Z",
-    "will-40-ships-transit-the-strait-of-hormuz-on-any-day-by-june-30-2026": "2026-06-24T17:32:42Z"
+    "will-40-ships-transit-the-strait-of-hormuz-on-any-day-by-june-30-2026": "2026-06-24T17:32:42Z",
+    "will-ethereum-dip-to-1400-in-june-2026": "2026-06-24T20:59:02Z"
   },
   "running": true,
-  "lastTick": "2026-06-24T19:15:38Z",
+  "lastTick": "2026-06-24T20:59:02Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 15.94,
-    "nClosed": 47,
-    "nWins": 20,
-    "winRate": 0.426
+    "realizedPnl": 41.63,
+    "nClosed": 49,
+    "nWins": 22,
+    "winRate": 0.449
   }
 }
