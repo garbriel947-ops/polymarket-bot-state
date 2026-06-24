@@ -679,7 +679,7 @@
     "will-spacexs-valuation-hit-high-3pt0t-by-june-30": "2026-06-22T15:34:13Z"
   },
   "running": true,
-  "lastTick": "2026-06-24T08:01:29Z",
+  "lastTick": "2026-06-24T11:12:10Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 184.47,
