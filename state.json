@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 832.6152450373337,
+  "cash": 673.3559857780745,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -58,24 +58,54 @@
       "score": 1.315217391304348
     },
     {
+      "slug": "will-40-ships-transit-the-strait-of-hormuz-on-any-day-by-june-30-2026",
+      "question": "Will 40 ships transit the Strait of Hormuz on any day by June 30, 2026?",
+      "tag": "autre",
+      "side": "NO",
+      "entry": 0.3,
+      "tp": 0.3816003999036841,
+      "stop": 0.2455997333975439,
+      "stake": 100.0,
+      "sigma": 0.0272,
+      "dist": 0.0544,
+      "theme": "will ships transit the strait of hormuz on any day by june",
+      "und": "will ships transit the strait of hormuz on any day by june",
+      "dir": "NO",
+      "openedAt": "2026-06-24T15:42:49Z",
+      "score": 1.41
+    },
+    {
+      "slug": "will-bitcoin-dip-to-57pt5k-in-june-2026-623",
+      "question": "Will Bitcoin dip to $57,500 in June?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.632,
+      "tp": 0.692,
+      "stop": 0.592,
+      "stake": 100.0,
+      "sigma": 0.0186,
+      "dist": 0.04,
+      "theme": "will bitcoin dip to in june",
+      "und": "BTC",
+      "dir": "UP",
+      "openedAt": "2026-06-24T15:42:49Z",
+      "score": 0.1768536121673004
+    }
+  ],
+  "closed": [
+    {
       "slug": "will-gustavo-petro-be-the-next-leader-out-before-2027-576",
       "question": "Will Gustavo Petro be the next leader out before 2027?",
       "tag": "autre",
       "side": "YES",
       "entry": 0.135,
-      "tp": 0.2457596116054125,
-      "stop": 0.06116025892972503,
-      "stake": 100.0,
-      "sigma": 0.0369,
-      "dist": 0.0738,
-      "theme": "will gustavo petro be the next leader out before",
-      "und": "will gustavo petro be the next leader out before",
-      "dir": "YES",
+      "exit": 0.055,
+      "pnlPct": -0.5925925925925927,
+      "pnlAmt": -59.25925925925927,
       "openedAt": "2026-06-22T15:34:14Z",
-      "score": 0.5667222222222222
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-06-24T15:42:48Z",
+      "reason": "STOP"
+    },
     {
       "slug": "will-bitcoin-reach-67500-in-june-2026-from-june-4",
       "question": "Will Bitcoin reach $67,500 in June?",
@@ -672,15 +702,16 @@
     "wta-mcnally-sierra-2026-06-11": "2026-06-12T10:43:11Z",
     "will-bitcoin-reach-67500-in-june-2026-from-june-4": "2026-06-24T13:28:07Z",
     "trump-orders-federal-review-of-ai-model-releases-by-june-30": "2026-06-18T18:33:05Z",
-    "will-spacexs-valuation-hit-high-3pt0t-by-june-30": "2026-06-22T15:34:13Z"
+    "will-spacexs-valuation-hit-high-3pt0t-by-june-30": "2026-06-22T15:34:13Z",
+    "will-gustavo-petro-be-the-next-leader-out-before-2027-576": "2026-06-24T15:42:48Z"
   },
   "running": true,
-  "lastTick": "2026-06-24T13:28:07Z",
+  "lastTick": "2026-06-24T15:42:49Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 132.62,
-    "nClosed": 44,
+    "realizedPnl": 73.36,
+    "nClosed": 45,
     "nWins": 20,
-    "winRate": 0.455
+    "winRate": 0.444
   }
 }
