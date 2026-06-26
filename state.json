@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 554.5810304617271,
+  "cash": 545.18139431861,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -92,24 +92,37 @@
       "score": 0.5700000000000001
     },
     {
+      "slug": "will-ethereum-dip-to-1500-in-june-2026",
+      "question": "Will Ethereum dip to $1,500 in June?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.315,
+      "tp": 0.47775597970142736,
+      "stop": 0.20649601353238178,
+      "stake": 100.0,
+      "sigma": 0.0543,
+      "dist": 0.1085,
+      "theme": "will ethereum dip to in june",
+      "und": "ETH",
+      "dir": "UP",
+      "openedAt": "2026-06-26T12:00:06Z",
+      "score": 0.8417391304347827
+    }
+  ],
+  "closed": [
+    {
       "slug": "will-ethereum-dip-to-1400-in-june-2026",
       "question": "Will Ethereum dip to $1,400 in June?",
       "tag": "crypto",
       "side": "NO",
       "entry": 0.8245,
-      "tp": 0.8877383478365546,
-      "stop": 0.782341101442297,
-      "stake": 100.0,
-      "sigma": 0.0211,
-      "dist": 0.0422,
-      "theme": "will ethereum dip to in june",
-      "und": "ETH",
-      "dir": "UP",
+      "exit": 0.747,
+      "pnlPct": -0.09399636143117042,
+      "pnlAmt": -9.399636143117043,
       "openedAt": "2026-06-26T01:51:58Z",
-      "score": 0.12672081218274112
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-06-26T12:00:05Z",
+      "reason": "STOP"
+    },
     {
       "slug": "will-ethereum-dip-to-1500-in-june-2026",
       "question": "Will Ethereum dip to $1,500 in June?",
@@ -787,16 +800,16 @@
     "will-spacexs-valuation-hit-high-3pt0t-by-june-30": "2026-06-22T15:34:13Z",
     "will-gustavo-petro-be-the-next-leader-out-before-2027-576": "2026-06-24T15:42:48Z",
     "will-40-ships-transit-the-strait-of-hormuz-on-any-day-by-june-30-2026": "2026-06-24T17:32:42Z",
-    "will-ethereum-dip-to-1400-in-june-2026": "2026-06-24T20:59:02Z",
+    "will-ethereum-dip-to-1400-in-june-2026": "2026-06-26T12:00:05Z",
     "will-ethereum-dip-to-1500-in-june-2026": "2026-06-25T05:49:36Z"
   },
   "running": true,
-  "lastTick": "2026-06-26T09:35:42Z",
+  "lastTick": "2026-06-26T12:00:06Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 54.58,
-    "nClosed": 50,
+    "realizedPnl": 45.18,
+    "nClosed": 51,
     "nWins": 23,
-    "winRate": 0.46
+    "winRate": 0.451
   }
 }
