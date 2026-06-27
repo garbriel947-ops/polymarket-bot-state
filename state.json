@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 671.4740235815364,
+  "cash": 571.4740235815364,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -107,6 +107,23 @@
       "dir": "UP",
       "openedAt": "2026-06-26T20:12:02Z",
       "score": 0.28166666666666673
+    },
+    {
+      "slug": "will-ethereum-dip-to-1500-in-june-2026",
+      "question": "Will Ethereum dip to $1,500 in June?",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.37,
+      "tp": 0.5391362501348953,
+      "stop": 0.25724249991006976,
+      "stake": 100.0,
+      "sigma": 0.0564,
+      "dist": 0.1128,
+      "theme": "will ethereum dip to in june",
+      "und": "ETH",
+      "dir": "DOWN",
+      "openedAt": "2026-06-27T05:40:47Z",
+      "score": 0.21542553191489364
     }
   ],
   "closed": [
@@ -831,7 +848,7 @@
     "will-bitcoin-dip-to-58k-june-22-28-2026": "2026-06-26T18:14:11Z"
   },
   "running": true,
-  "lastTick": "2026-06-27T01:47:53Z",
+  "lastTick": "2026-06-27T05:40:47Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 171.47,
