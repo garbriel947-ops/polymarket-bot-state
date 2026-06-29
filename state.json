@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 743.7029078682096,
+  "cash": 744.1376904769053,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -73,26 +73,22 @@
       "dir": "NO",
       "openedAt": "2026-06-24T17:32:42Z",
       "score": 1.3248076923076921
-    },
+    }
+  ],
+  "closed": [
     {
       "slug": "wta-sierra-bondar-2026-06-29",
       "question": "Wimbledon WTA: Solana Sierra vs Anna Bondar",
       "tag": "crypto",
       "side": "NO",
       "entry": 0.115,
-      "tp": 0.2140705936773245,
-      "stop": 0.04895293754845033,
-      "stake": 100.0,
-      "sigma": 0.033,
-      "dist": 0.066,
-      "theme": "wimbledon wta solana sierra vs anna bondar",
-      "und": "SOL",
-      "dir": "NEUTRAL",
+      "exit": 0.0005,
+      "pnlPct": -0.9956521739130435,
+      "pnlAmt": -99.56521739130434,
       "openedAt": "2026-06-29T17:56:27Z",
-      "score": 1.5
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-06-29T19:56:35Z",
+      "reason": "STOP"
+    },
     {
       "slug": "will-bitcoin-dip-to-57pt5k-in-june-2026-623-575",
       "question": "Will Bitcoin dip to $57,500 in June?",
@@ -866,15 +862,16 @@
     "will-bitcoin-dip-to-58k-june-22-28-2026": "2026-06-26T18:14:11Z",
     "will-bitcoin-dip-to-55k-in-june-2026-779-111": "2026-06-27T08:16:55Z",
     "will-bitcoin-reach-62500-in-june-2026-from-june-25": "2026-06-28T22:39:25Z",
-    "will-bitcoin-dip-to-57pt5k-in-june-2026-623-575": "2026-06-28T22:39:25Z"
+    "will-bitcoin-dip-to-57pt5k-in-june-2026-623-575": "2026-06-28T22:39:25Z",
+    "wta-sierra-bondar-2026-06-29": "2026-06-29T19:56:35Z"
   },
   "running": true,
-  "lastTick": "2026-06-29T17:56:27Z",
+  "lastTick": "2026-06-29T19:56:35Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 143.7,
-    "nClosed": 57,
+    "realizedPnl": 44.13,
+    "nClosed": 58,
     "nWins": 26,
-    "winRate": 0.456
+    "winRate": 0.448
   }
 }
