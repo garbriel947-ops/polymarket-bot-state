@@ -866,7 +866,7 @@
     "wta-sierra-bondar-2026-06-29": "2026-06-29T19:56:35Z"
   },
   "running": true,
-  "lastTick": "2026-06-30T21:49:51Z",
+  "lastTick": "2026-06-30T22:59:47Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 44.13,
