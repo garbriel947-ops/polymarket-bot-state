@@ -880,7 +880,7 @@
     "wta-sierra-gauff-2026-07-01": "2026-07-01T16:26:11Z"
   },
   "running": true,
-  "lastTick": "2026-07-01T16:26:11Z",
+  "lastTick": "2026-07-01T18:24:32Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 339.84,
