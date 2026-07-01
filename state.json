@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 744.1376904769053,
+  "cash": 644.1376904769053,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -73,6 +73,23 @@
       "dir": "NO",
       "openedAt": "2026-06-24T17:32:42Z",
       "score": 1.3248076923076921
+    },
+    {
+      "slug": "wta-sierra-gauff-2026-07-01",
+      "question": "Wimbledon WTA: Solana Sierra vs Coco Gauff",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.105,
+      "tp": 0.16499999999999998,
+      "stop": 0.065,
+      "stake": 100.0,
+      "sigma": 0.0137,
+      "dist": 0.04,
+      "theme": "wimbledon wta solana sierra vs coco gauff",
+      "und": "SOL",
+      "dir": "NEUTRAL",
+      "openedAt": "2026-07-01T13:56:14Z",
+      "score": 0.16666666666666669
     }
   ],
   "closed": [
@@ -866,7 +883,7 @@
     "wta-sierra-bondar-2026-06-29": "2026-06-29T19:56:35Z"
   },
   "running": true,
-  "lastTick": "2026-07-01T11:46:28Z",
+  "lastTick": "2026-07-01T13:56:14Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 44.13,
