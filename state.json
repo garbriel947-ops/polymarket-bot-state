@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 1039.851976191191,
+  "cash": 939.8519761911909,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -73,6 +73,23 @@
       "dir": "NO",
       "openedAt": "2026-06-24T17:32:42Z",
       "score": 1.3248076923076921
+    },
+    {
+      "slug": "will-bitcoin-dip-to-56k-june-29-july-5-2026",
+      "question": "Will Bitcoin dip to $56,000 June 29-July 5?",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.1,
+      "tp": 0.21263444115360264,
+      "stop": 0.024910372564264913,
+      "stake": 100.0,
+      "sigma": 0.0375,
+      "dist": 0.0751,
+      "theme": "will bitcoin dip to june july",
+      "und": "BTC",
+      "dir": "DOWN",
+      "openedAt": "2026-07-01T20:21:33Z",
+      "score": 0.6900000000000001
     }
   ],
   "closed": [
@@ -880,7 +897,7 @@
     "wta-sierra-gauff-2026-07-01": "2026-07-01T16:26:11Z"
   },
   "running": true,
-  "lastTick": "2026-07-01T18:24:32Z",
+  "lastTick": "2026-07-01T20:21:33Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 339.84,
