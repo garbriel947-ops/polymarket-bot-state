@@ -911,7 +911,7 @@
     "will-bitcoin-dip-to-56k-june-29-july-5-2026": "2026-07-02T14:41:17Z"
   },
   "running": true,
-  "lastTick": "2026-07-02T16:27:56Z",
+  "lastTick": "2026-07-02T18:14:24Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 261.84,
