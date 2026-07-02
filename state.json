@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 861.8519761911909,
+  "cash": 872.3393296766938,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -75,24 +75,37 @@
       "score": 1.3248076923076921
     },
     {
+      "slug": "will-bitcoin-dip-to-55k-in-july-2026",
+      "question": "Will Bitcoin dip to $55,000 in July?",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.335,
+      "tp": 0.4013658978539369,
+      "stop": 0.2907560680973754,
+      "stake": 100.0,
+      "sigma": 0.0221,
+      "dist": 0.0442,
+      "theme": "will bitcoin dip to in july",
+      "und": "BTC",
+      "dir": "DOWN",
+      "openedAt": "2026-07-02T20:56:39Z",
+      "score": 0.28500000000000003
+    }
+  ],
+  "closed": [
+    {
       "slug": "will-bitcoin-reach-64k-june-29-july-5-2026",
       "question": "Will Bitcoin reach $64,000 June 29-July 5?",
       "tag": "crypto",
       "side": "NO",
       "entry": 0.8105,
-      "tp": 0.8705,
-      "stop": 0.7705,
-      "stake": 100.0,
-      "sigma": 0.0195,
-      "dist": 0.04,
-      "theme": "will bitcoin reach june july",
-      "und": "BTC",
-      "dir": "DOWN",
+      "exit": 0.8955,
+      "pnlPct": 0.10487353485502772,
+      "pnlAmt": 10.487353485502773,
       "openedAt": "2026-07-02T14:41:17Z",
-      "score": 0.312
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-07-02T20:56:38Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-bitcoin-dip-to-56k-june-29-july-5-2026",
       "question": "Will Bitcoin dip to $56,000 June 29-July 5?",
@@ -908,15 +921,16 @@
     "will-bitcoin-dip-to-57pt5k-in-june-2026-623-575": "2026-06-28T22:39:25Z",
     "wta-sierra-bondar-2026-06-29": "2026-06-29T19:56:35Z",
     "wta-sierra-gauff-2026-07-01": "2026-07-01T16:26:11Z",
-    "will-bitcoin-dip-to-56k-june-29-july-5-2026": "2026-07-02T14:41:17Z"
+    "will-bitcoin-dip-to-56k-june-29-july-5-2026": "2026-07-02T14:41:17Z",
+    "will-bitcoin-reach-64k-june-29-july-5-2026": "2026-07-02T20:56:38Z"
   },
   "running": true,
-  "lastTick": "2026-07-02T19:53:56Z",
+  "lastTick": "2026-07-02T20:56:39Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 261.84,
-    "nClosed": 60,
-    "nWins": 27,
-    "winRate": 0.45
+    "realizedPnl": 272.33,
+    "nClosed": 61,
+    "nWins": 28,
+    "winRate": 0.459
   }
 }
