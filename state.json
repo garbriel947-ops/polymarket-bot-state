@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 957.0019063638103,
+  "cash": 1042.076533229482,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -73,26 +73,22 @@
       "dir": "NO",
       "openedAt": "2026-06-24T17:32:42Z",
       "score": 1.3248076923076921
-    },
+    }
+  ],
+  "closed": [
     {
       "slug": "will-bitcoin-dip-to-55k-in-july-2026",
       "question": "Will Bitcoin dip to $55,000 in July?",
       "tag": "crypto",
       "side": "YES",
       "entry": 0.335,
-      "tp": 0.4013658978539369,
-      "stop": 0.2907560680973754,
-      "stake": 100.0,
-      "sigma": 0.0221,
-      "dist": 0.0442,
-      "theme": "will bitcoin dip to in july",
-      "und": "BTC",
-      "dir": "DOWN",
+      "exit": 0.285,
+      "pnlPct": -0.1492537313432837,
+      "pnlAmt": -14.925373134328371,
       "openedAt": "2026-07-02T20:56:39Z",
-      "score": 0.28500000000000003
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-07-03T20:18:43Z",
+      "reason": "STOP"
+    },
     {
       "slug": "will-bitcoin-reach-64k-june-29-july-5-2026",
       "question": "Will Bitcoin reach $64,000 June 29-July 5?",
@@ -935,15 +931,16 @@
     "wta-sierra-bondar-2026-06-29": "2026-06-29T19:56:35Z",
     "wta-sierra-gauff-2026-07-01": "2026-07-01T16:26:11Z",
     "will-bitcoin-dip-to-56k-june-29-july-5-2026": "2026-07-02T14:41:17Z",
-    "will-bitcoin-reach-64k-june-29-july-5-2026": "2026-07-03T17:52:42Z"
+    "will-bitcoin-reach-64k-june-29-july-5-2026": "2026-07-03T17:52:42Z",
+    "will-bitcoin-dip-to-55k-in-july-2026": "2026-07-03T20:18:43Z"
   },
   "running": true,
-  "lastTick": "2026-07-03T18:59:18Z",
+  "lastTick": "2026-07-03T20:18:43Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 356.99,
-    "nClosed": 62,
+    "realizedPnl": 342.06,
+    "nClosed": 63,
     "nWins": 29,
-    "winRate": 0.468
+    "winRate": 0.46
   }
 }
