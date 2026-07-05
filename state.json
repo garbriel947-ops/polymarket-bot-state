@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 933.0675242204729,
+  "cash": 1018.5747705972846,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -73,26 +73,22 @@
       "dir": "NO",
       "openedAt": "2026-06-24T17:32:42Z",
       "score": 1.3248076923076921
-    },
+    }
+  ],
+  "closed": [
     {
       "slug": "will-bitcoin-dip-to-57pt5k-in-july-2026",
       "question": "Will Bitcoin dip to $57,500 in July?",
       "tag": "crypto",
       "side": "YES",
       "entry": 0.345,
-      "tp": 0.40499999999999997,
-      "stop": 0.305,
-      "stake": 100.0,
-      "sigma": 0.0171,
-      "dist": 0.04,
-      "theme": "will bitcoin dip to in july",
-      "und": "BTC",
-      "dir": "DOWN",
+      "exit": 0.295,
+      "pnlPct": -0.14492753623188404,
+      "pnlAmt": -14.492753623188403,
       "openedAt": "2026-07-04T18:38:31Z",
-      "score": 0.72
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-07-05T23:18:40Z",
+      "reason": "STOP"
+    },
     {
       "slug": "will-bitcoin-reach-67pt5k-in-july-2026",
       "question": "Will Bitcoin reach $67,500 in July?",
@@ -963,15 +959,16 @@
     "will-bitcoin-dip-to-56k-june-29-july-5-2026": "2026-07-02T14:41:17Z",
     "will-bitcoin-reach-64k-june-29-july-5-2026": "2026-07-03T17:52:42Z",
     "will-bitcoin-dip-to-55k-in-july-2026": "2026-07-03T20:18:43Z",
-    "will-bitcoin-reach-67pt5k-in-july-2026": "2026-07-04T18:38:31Z"
+    "will-bitcoin-reach-67pt5k-in-july-2026": "2026-07-04T18:38:31Z",
+    "will-bitcoin-dip-to-57pt5k-in-july-2026": "2026-07-05T23:18:40Z"
   },
   "running": true,
-  "lastTick": "2026-07-05T22:12:16Z",
+  "lastTick": "2026-07-05T23:18:40Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 333.05,
-    "nClosed": 64,
+    "realizedPnl": 318.56,
+    "nClosed": 65,
     "nWins": 29,
-    "winRate": 0.453
+    "winRate": 0.446
   }
 }
