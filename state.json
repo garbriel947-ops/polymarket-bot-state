@@ -994,7 +994,7 @@
     "will-bitcoin-reach-65k-in-july-2026": "2026-07-06T16:39:02Z"
   },
   "running": true,
-  "lastTick": "2026-07-06T16:39:03Z",
+  "lastTick": "2026-07-06T18:30:00Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 358.56,
