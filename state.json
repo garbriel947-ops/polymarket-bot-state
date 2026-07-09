@@ -1128,7 +1128,7 @@
     "will-ethereum-reach-1900-in-july-2026": "2026-07-08T18:20:03Z"
   },
   "running": true,
-  "lastTick": "2026-07-09T11:33:18Z",
+  "lastTick": "2026-07-09T14:10:06Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 421.94,
