@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 998.7592800681318,
+  "cash": 1021.9476858652333,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -75,24 +75,37 @@
       "score": 1.3248076923076921
     },
     {
+      "slug": "will-bitcoin-dip-to-60000-in-july-20260706151220612-754",
+      "question": "Will Bitcoin dip to $60,000 in July?",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.6,
+      "tp": 0.6599999999999999,
+      "stop": 0.5599999999999999,
+      "stake": 100.0,
+      "sigma": 0.0195,
+      "dist": 0.04,
+      "theme": "will bitcoin dip to in july",
+      "und": "BTC",
+      "dir": "DOWN",
+      "openedAt": "2026-07-09T08:39:08Z",
+      "score": 0.81
+    }
+  ],
+  "closed": [
+    {
       "slug": "will-bitcoin-reach-67pt5k-in-july-2026",
       "question": "Will Bitcoin reach $67,500 in July?",
       "tag": "crypto",
       "side": "YES",
       "entry": 0.345,
-      "tp": 0.40499999999999997,
-      "stop": 0.305,
-      "stake": 100.0,
-      "sigma": 0.0191,
-      "dist": 0.04,
-      "theme": "will bitcoin reach in july",
-      "und": "BTC",
-      "dir": "UP",
+      "exit": 0.425,
+      "pnlPct": 0.23188405797101455,
+      "pnlAmt": 23.188405797101456,
       "openedAt": "2026-07-08T18:20:03Z",
-      "score": 0.63
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-07-09T08:39:07Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-ethereum-reach-1900-in-july-2026",
       "question": "Will Ethereum reach $1,900 in July?",
@@ -1106,7 +1119,7 @@
     "will-bitcoin-dip-to-56k-june-29-july-5-2026": "2026-07-02T14:41:17Z",
     "will-bitcoin-reach-64k-june-29-july-5-2026": "2026-07-03T17:52:42Z",
     "will-bitcoin-dip-to-55k-in-july-2026": "2026-07-03T20:18:43Z",
-    "will-bitcoin-reach-67pt5k-in-july-2026": "2026-07-08T04:30:04Z",
+    "will-bitcoin-reach-67pt5k-in-july-2026": "2026-07-09T08:39:07Z",
     "will-bitcoin-dip-to-57pt5k-in-july-2026": "2026-07-05T23:18:40Z",
     "will-bitcoin-reach-65k-in-july-2026": "2026-07-08T18:20:03Z",
     "will-bitcoin-dip-to-57pt5k-in-july-2026-618": "2026-07-08T09:32:32Z",
@@ -1115,12 +1128,12 @@
     "will-ethereum-reach-1900-in-july-2026": "2026-07-08T18:20:03Z"
   },
   "running": true,
-  "lastTick": "2026-07-09T05:06:16Z",
+  "lastTick": "2026-07-09T08:39:08Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 398.75,
-    "nClosed": 75,
-    "nWins": 34,
-    "winRate": 0.453
+    "realizedPnl": 421.94,
+    "nClosed": 76,
+    "nWins": 35,
+    "winRate": 0.461
   }
 }
