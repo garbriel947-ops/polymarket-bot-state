@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 961.2572913540844,
+  "cash": 1051.845526648202,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -73,26 +73,22 @@
       "dir": "NO",
       "openedAt": "2026-06-24T17:32:42Z",
       "score": 1.3248076923076921
-    },
+    }
+  ],
+  "closed": [
     {
       "slug": "will-bitcoin-dip-to-60000-in-july-20260706151220612-754",
       "question": "Will Bitcoin dip to $60,000 in July?",
       "tag": "crypto",
       "side": "YES",
       "entry": 0.425,
-      "tp": 0.485,
-      "stop": 0.385,
-      "stake": 100.0,
-      "sigma": 0.019,
-      "dist": 0.04,
-      "theme": "will bitcoin dip to in july",
-      "und": "BTC",
-      "dir": "DOWN",
+      "exit": 0.385,
+      "pnlPct": -0.09411764705882349,
+      "pnlAmt": -9.411764705882348,
       "openedAt": "2026-07-10T10:42:46Z",
-      "score": 0.54
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-07-11T15:14:58Z",
+      "reason": "STOP"
+    },
     {
       "slug": "will-bitcoin-reach-67pt5k-in-july-2026",
       "question": "Will Bitcoin reach $67,500 in July?",
@@ -1163,16 +1159,16 @@
     "will-bitcoin-reach-65k-in-july-2026": "2026-07-10T04:12:58Z",
     "will-bitcoin-dip-to-57pt5k-in-july-2026-618": "2026-07-08T09:32:32Z",
     "will-bitcoin-dip-to-60k-july-6-12-2026": "2026-07-07T18:09:12Z",
-    "will-bitcoin-dip-to-60000-in-july-20260706151220612-754": "2026-07-09T18:25:19Z",
+    "will-bitcoin-dip-to-60000-in-july-20260706151220612-754": "2026-07-11T15:14:58Z",
     "will-ethereum-reach-1900-in-july-2026": "2026-07-08T18:20:03Z"
   },
   "running": true,
-  "lastTick": "2026-07-11T14:11:17Z",
+  "lastTick": "2026-07-11T15:14:58Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 361.25,
-    "nClosed": 79,
+    "realizedPnl": 351.84,
+    "nClosed": 80,
     "nWins": 35,
-    "winRate": 0.443
+    "winRate": 0.438
   }
 }
