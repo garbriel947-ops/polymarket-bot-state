@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 952.8185993769998,
+  "cash": 1079.289187612294,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -73,26 +73,22 @@
       "dir": "NO",
       "openedAt": "2026-06-24T17:32:42Z",
       "score": 1.3248076923076921
-    },
+    }
+  ],
+  "closed": [
     {
       "slug": "will-bitcoin-dip-to-60000-in-july-20260706151220612-754",
       "question": "Will Bitcoin dip to $60,000 in July?",
       "tag": "crypto",
       "side": "NO",
       "entry": 0.34,
-      "tp": 0.4,
-      "stop": 0.30000000000000004,
-      "stake": 100.0,
-      "sigma": 0.0188,
-      "dist": 0.04,
-      "theme": "will bitcoin dip to in july",
-      "und": "BTC",
-      "dir": "UP",
+      "exit": 0.43,
+      "pnlPct": 0.26470588235294107,
+      "pnlAmt": 26.470588235294105,
       "openedAt": "2026-07-13T17:32:54Z",
-      "score": 0.702972972972973
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-07-14T05:55:04Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-bitcoin-reach-65k-in-july-2026",
       "question": "Will Bitcoin reach $65,000 in July?",
@@ -1202,16 +1198,16 @@
     "will-bitcoin-reach-65k-in-july-2026": "2026-07-13T17:32:54Z",
     "will-bitcoin-dip-to-57pt5k-in-july-2026-618": "2026-07-08T09:32:32Z",
     "will-bitcoin-dip-to-60k-july-6-12-2026": "2026-07-07T18:09:12Z",
-    "will-bitcoin-dip-to-60000-in-july-20260706151220612-754": "2026-07-11T15:14:58Z",
+    "will-bitcoin-dip-to-60000-in-july-20260706151220612-754": "2026-07-14T05:55:04Z",
     "will-ethereum-reach-1900-in-july-2026": "2026-07-08T18:20:03Z"
   },
   "running": true,
-  "lastTick": "2026-07-14T03:35:50Z",
+  "lastTick": "2026-07-14T05:55:04Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 352.82,
-    "nClosed": 82,
-    "nWins": 36,
-    "winRate": 0.439
+    "realizedPnl": 379.29,
+    "nClosed": 83,
+    "nWins": 37,
+    "winRate": 0.446
   }
 }
