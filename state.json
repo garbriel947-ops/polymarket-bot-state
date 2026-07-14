@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 958.8810243469879,
+  "cash": 858.8810243469879,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -90,6 +90,23 @@
       "dir": "DOWN",
       "openedAt": "2026-07-14T17:21:59Z",
       "score": 0.6900000000000001
+    },
+    {
+      "slug": "will-ethereum-reach-1900-in-july-2026",
+      "question": "Will Ethereum reach $1,900 in July?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.105,
+      "tp": 0.18572696921346793,
+      "stop": 0.051182020524354714,
+      "stake": 100.0,
+      "sigma": 0.0269,
+      "dist": 0.0538,
+      "theme": "will ethereum reach in july",
+      "und": "ETH",
+      "dir": "DOWN",
+      "openedAt": "2026-07-14T21:41:47Z",
+      "score": 1.3165714285714285
     }
   ],
   "closed": [
@@ -1232,7 +1249,7 @@
     "will-ethereum-reach-1900-in-july-2026": "2026-07-08T18:20:03Z"
   },
   "running": true,
-  "lastTick": "2026-07-14T20:48:59Z",
+  "lastTick": "2026-07-14T21:41:47Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 358.88,
