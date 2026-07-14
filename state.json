@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 979.289187612294,
+  "cash": 1058.881024346988,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -73,26 +73,22 @@
       "dir": "NO",
       "openedAt": "2026-06-24T17:32:42Z",
       "score": 1.3248076923076921
-    },
+    }
+  ],
+  "closed": [
     {
       "slug": "will-bitcoin-reach-65k-in-july-2026",
       "question": "Will Bitcoin reach $65,000 in July?",
       "tag": "crypto",
       "side": "NO",
       "entry": 0.245,
-      "tp": 0.3076601143878613,
-      "stop": 0.2032265904080925,
-      "stake": 100.0,
-      "sigma": 0.0209,
-      "dist": 0.0418,
-      "theme": "will bitcoin reach in july",
-      "und": "BTC",
-      "dir": "DOWN",
+      "exit": 0.195,
+      "pnlPct": -0.20408163265306117,
+      "pnlAmt": -20.40816326530612,
       "openedAt": "2026-07-14T12:41:07Z",
-      "score": 0.384
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-07-14T14:28:44Z",
+      "reason": "STOP"
+    },
     {
       "slug": "will-bitcoin-dip-to-60000-in-july-20260706151220612-754",
       "question": "Will Bitcoin dip to $60,000 in July?",
@@ -1212,19 +1208,19 @@
     "will-bitcoin-dip-to-55k-in-july-2026": "2026-07-03T20:18:43Z",
     "will-bitcoin-reach-67pt5k-in-july-2026": "2026-07-12T15:11:56Z",
     "will-bitcoin-dip-to-57pt5k-in-july-2026": "2026-07-05T23:18:40Z",
-    "will-bitcoin-reach-65k-in-july-2026": "2026-07-13T17:32:54Z",
+    "will-bitcoin-reach-65k-in-july-2026": "2026-07-14T14:28:44Z",
     "will-bitcoin-dip-to-57pt5k-in-july-2026-618": "2026-07-08T09:32:32Z",
     "will-bitcoin-dip-to-60k-july-6-12-2026": "2026-07-07T18:09:12Z",
     "will-bitcoin-dip-to-60000-in-july-20260706151220612-754": "2026-07-14T05:55:04Z",
     "will-ethereum-reach-1900-in-july-2026": "2026-07-08T18:20:03Z"
   },
   "running": true,
-  "lastTick": "2026-07-14T12:41:07Z",
+  "lastTick": "2026-07-14T14:28:44Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 379.29,
-    "nClosed": 83,
+    "realizedPnl": 358.88,
+    "nClosed": 84,
     "nWins": 37,
-    "winRate": 0.446
+    "winRate": 0.44
   }
 }
