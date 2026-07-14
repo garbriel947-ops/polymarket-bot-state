@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 1058.881024346988,
+  "cash": 958.8810243469879,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -73,6 +73,23 @@
       "dir": "NO",
       "openedAt": "2026-06-24T17:32:42Z",
       "score": 1.3248076923076921
+    },
+    {
+      "slug": "will-bitcoin-reach-67pt5k-in-july-2026",
+      "question": "Will Bitcoin reach $67,500 in July?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.475,
+      "tp": 0.5349999999999999,
+      "stop": 0.435,
+      "stake": 100.0,
+      "sigma": 0.017,
+      "dist": 0.04,
+      "theme": "will bitcoin reach in july",
+      "und": "BTC",
+      "dir": "DOWN",
+      "openedAt": "2026-07-14T17:21:59Z",
+      "score": 0.6900000000000001
     }
   ],
   "closed": [
@@ -1215,7 +1232,7 @@
     "will-ethereum-reach-1900-in-july-2026": "2026-07-08T18:20:03Z"
   },
   "running": true,
-  "lastTick": "2026-07-14T15:59:29Z",
+  "lastTick": "2026-07-14T17:21:59Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 358.88,
