@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 787.0013250988677,
+  "cash": 895.3929334904761,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -75,23 +75,6 @@
       "score": 1.3248076923076921
     },
     {
-      "slug": "will-bitcoin-reach-70k-in-july-2026",
-      "question": "Will Bitcoin reach $70,000 in July?",
-      "tag": "crypto",
-      "side": "NO",
-      "entry": 0.715,
-      "tp": 0.7749999999999999,
-      "stop": 0.6749999999999999,
-      "stake": 100.0,
-      "sigma": 0.0108,
-      "dist": 0.04,
-      "theme": "will bitcoin reach in july",
-      "und": "BTC",
-      "dir": "DOWN",
-      "openedAt": "2026-07-14T22:39:33Z",
-      "score": 0.96
-    },
-    {
       "slug": "will-ethereum-reach-1900-in-july-2026",
       "question": "Will Ethereum reach $1,900 in July?",
       "tag": "crypto",
@@ -110,6 +93,19 @@
     }
   ],
   "closed": [
+    {
+      "slug": "will-bitcoin-reach-70k-in-july-2026",
+      "question": "Will Bitcoin reach $70,000 in July?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.715,
+      "exit": 0.775,
+      "pnlPct": 0.08391608391608399,
+      "pnlAmt": 8.391608391608399,
+      "openedAt": "2026-07-14T22:39:33Z",
+      "closedAt": "2026-07-16T03:35:49Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-ethereum-reach-1900-in-july-2026",
       "question": "Will Ethereum reach $1,900 in July?",
@@ -1272,15 +1268,16 @@
     "will-bitcoin-dip-to-57pt5k-in-july-2026-618": "2026-07-08T09:32:32Z",
     "will-bitcoin-dip-to-60k-july-6-12-2026": "2026-07-07T18:09:12Z",
     "will-bitcoin-dip-to-60000-in-july-20260706151220612-754": "2026-07-14T05:55:04Z",
-    "will-ethereum-reach-1900-in-july-2026": "2026-07-14T22:39:33Z"
+    "will-ethereum-reach-1900-in-july-2026": "2026-07-14T22:39:33Z",
+    "will-bitcoin-reach-70k-in-july-2026": "2026-07-16T03:35:49Z"
   },
   "running": true,
-  "lastTick": "2026-07-16T00:11:15Z",
+  "lastTick": "2026-07-16T03:35:49Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 287.0,
-    "nClosed": 86,
-    "nWins": 37,
-    "winRate": 0.43
+    "realizedPnl": 295.39,
+    "nClosed": 87,
+    "nWins": 38,
+    "winRate": 0.437
   }
 }
