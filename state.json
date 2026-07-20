@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 870.2990888846224,
+  "cash": 1014.9799399484522,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -90,26 +90,22 @@
       "dir": "DOWN",
       "openedAt": "2026-07-15T11:56:17Z",
       "score": 0.4747191011235956
-    },
+    }
+  ],
+  "closed": [
     {
       "slug": "will-bitcoin-dip-to-62pt5k-in-july-2026-from-july-14",
       "question": "Will Bitcoin dip to $62,500 in July?",
       "tag": "crypto",
       "side": "NO",
       "entry": 0.3055,
-      "tp": 0.37354799141637074,
-      "stop": 0.26013467238908616,
-      "stake": 100.0,
-      "sigma": 0.0227,
-      "dist": 0.0454,
-      "theme": "will bitcoin dip to in july",
-      "und": "BTC",
-      "dir": "UP",
+      "exit": 0.442,
+      "pnlPct": 0.4468085106382979,
+      "pnlAmt": 44.68085106382979,
       "openedAt": "2026-07-20T07:22:11Z",
-      "score": 0.735
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-07-20T12:28:34Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-bitcoin-reach-67pt5k-in-july-2026",
       "question": "Will Bitcoin reach $67,500 in July?",
@@ -1365,15 +1361,15 @@
     "will-bitcoin-dip-to-60000-in-july-20260706151220612-754": "2026-07-14T05:55:04Z",
     "will-ethereum-reach-1900-in-july-2026": "2026-07-14T22:39:33Z",
     "will-bitcoin-reach-70k-in-july-2026": "2026-07-17T04:19:25Z",
-    "will-bitcoin-dip-to-62pt5k-in-july-2026-from-july-14": "2026-07-18T17:46:30Z"
+    "will-bitcoin-dip-to-62pt5k-in-july-2026-from-july-14": "2026-07-20T12:28:34Z"
   },
   "running": true,
-  "lastTick": "2026-07-20T10:22:30Z",
+  "lastTick": "2026-07-20T12:28:34Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 370.3,
-    "nClosed": 93,
-    "nWins": 41,
-    "winRate": 0.441
+    "realizedPnl": 414.98,
+    "nClosed": 94,
+    "nWins": 42,
+    "winRate": 0.447
   }
 }
