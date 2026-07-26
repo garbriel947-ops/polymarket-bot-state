@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 649.5582359947795,
+  "cash": 664.66339851868,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -109,24 +109,37 @@
       "score": 0.16666666666666669
     },
     {
+      "slug": "will-bitcoin-reach-67pt5k-in-july-2026",
+      "question": "Will Bitcoin reach $67,500 in July?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.59,
+      "tp": 0.6710174753604153,
+      "stop": 0.5359883497597231,
+      "stake": 100.0,
+      "sigma": 0.027,
+      "dist": 0.054,
+      "theme": "will bitcoin reach in july",
+      "und": "BTC",
+      "dir": "DOWN",
+      "openedAt": "2026-07-26T23:33:07Z",
+      "score": 0.5606666666666666
+    }
+  ],
+  "closed": [
+    {
       "slug": "will-ethereum-dip-to-1500-by-december-31-2026-865-787",
       "question": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "tag": "crypto",
       "side": "NO",
       "entry": 0.523,
-      "tp": 0.583,
-      "stop": 0.48300000000000004,
-      "stake": 100.0,
-      "sigma": 0.0101,
-      "dist": 0.04,
-      "theme": "will ethereum dip to by december",
-      "und": "ETH",
-      "dir": "UP",
+      "exit": 0.602,
+      "pnlPct": 0.15105162523900564,
+      "pnlAmt": 15.105162523900564,
       "openedAt": "2026-07-24T17:27:04Z",
-      "score": 0.1443769230769231
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-07-26T23:33:06Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-bitcoin-reach-67pt5k-in-july-2026",
       "question": "Will Bitcoin reach $67,500 in July?",
@@ -1487,15 +1500,16 @@
     "will-ethereum-reach-1900-in-july-2026": "2026-07-14T22:39:33Z",
     "will-bitcoin-reach-70k-in-july-2026": "2026-07-24T09:27:58Z",
     "will-bitcoin-dip-to-62pt5k-in-july-2026-from-july-14": "2026-07-22T12:58:43Z",
-    "will-bitcoin-dip-to-65k-in-july-2026-from-july-20": "2026-07-23T13:02:48Z"
+    "will-bitcoin-dip-to-65k-in-july-2026-from-july-20": "2026-07-23T13:02:48Z",
+    "will-ethereum-dip-to-1500-by-december-31-2026-865-787": "2026-07-26T23:33:06Z"
   },
   "running": true,
-  "lastTick": "2026-07-26T22:32:13Z",
+  "lastTick": "2026-07-26T23:33:07Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 249.56,
-    "nClosed": 101,
-    "nWins": 44,
-    "winRate": 0.436
+    "realizedPnl": 264.67,
+    "nClosed": 102,
+    "nWins": 45,
+    "winRate": 0.441
   }
 }
