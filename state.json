@@ -1500,7 +1500,7 @@
     "will-ethereum-dip-to-1500-by-december-31-2026-865-787": "2026-07-26T23:33:06Z"
   },
   "running": true,
-  "lastTick": "2026-07-28T06:12:21Z",
+  "lastTick": "2026-07-28T09:04:38Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 296.03,
