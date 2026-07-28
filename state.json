@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 696.0193307220698,
+  "cash": 690.0042931280848,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -92,23 +92,6 @@
       "score": 0.4747191011235956
     },
     {
-      "slug": "will-bitcoin-dip-to-50000-by-december-31-2026-454-325-222-878-949-487-451-853-523-111",
-      "question": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-      "tag": "crypto",
-      "side": "NO",
-      "entry": 0.665,
-      "tp": 0.7250000000000001,
-      "stop": 0.625,
-      "stake": 100.0,
-      "sigma": 0.0049,
-      "dist": 0.04,
-      "theme": "will bitcoin dip to by december",
-      "und": "BTC",
-      "dir": "UP",
-      "openedAt": "2026-07-24T14:28:06Z",
-      "score": 0.16666666666666669
-    },
-    {
       "slug": "will-ethereum-dip-to-1500-by-december-31-2026-865-787",
       "question": "Will Ethereum dip to $1,500 by December 31, 2026?",
       "tag": "crypto",
@@ -124,9 +107,39 @@
       "dir": "UP",
       "openedAt": "2026-07-28T13:07:43Z",
       "score": 0.13612500000000002
+    },
+    {
+      "slug": "will-bitcoin-dip-to-62pt5k-in-july-2026-from-july-14",
+      "question": "Will Bitcoin dip to $62,500 in July?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.4895,
+      "tp": 0.5876622770762994,
+      "stop": 0.4240584819491337,
+      "stake": 100.0,
+      "sigma": 0.0327,
+      "dist": 0.0654,
+      "theme": "will bitcoin dip to in july",
+      "und": "BTC",
+      "dir": "UP",
+      "openedAt": "2026-07-28T19:57:38Z",
+      "score": 0.1396938775510204
     }
   ],
   "closed": [
+    {
+      "slug": "will-bitcoin-dip-to-50000-by-december-31-2026-454-325-222-878-949-487-451-853-523-111",
+      "question": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.665,
+      "exit": 0.625,
+      "pnlPct": -0.060150375939849676,
+      "pnlAmt": -6.015037593984967,
+      "openedAt": "2026-07-24T14:28:06Z",
+      "closedAt": "2026-07-28T19:57:38Z",
+      "reason": "STOP"
+    },
     {
       "slug": "will-bitcoin-reach-67pt5k-in-july-2026",
       "question": "Will Bitcoin reach $67,500 in July?",
@@ -1514,15 +1527,16 @@
     "will-bitcoin-reach-70k-in-july-2026": "2026-07-24T09:27:58Z",
     "will-bitcoin-dip-to-62pt5k-in-july-2026-from-july-14": "2026-07-22T12:58:43Z",
     "will-bitcoin-dip-to-65k-in-july-2026-from-july-20": "2026-07-23T13:02:48Z",
-    "will-ethereum-dip-to-1500-by-december-31-2026-865-787": "2026-07-26T23:33:06Z"
+    "will-ethereum-dip-to-1500-by-december-31-2026-865-787": "2026-07-26T23:33:06Z",
+    "will-bitcoin-dip-to-50000-by-december-31-2026-454-325-222-878-949-487-451-853-523-111": "2026-07-28T19:57:38Z"
   },
   "running": true,
-  "lastTick": "2026-07-28T18:22:45Z",
+  "lastTick": "2026-07-28T19:57:38Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 296.03,
-    "nClosed": 103,
+    "realizedPnl": 290.01,
+    "nClosed": 104,
     "nWins": 46,
-    "winRate": 0.447
+    "winRate": 0.442
   }
 }
