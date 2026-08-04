@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 786.6735799292586,
+  "cash": 927.1799090431826,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -107,26 +107,22 @@
       "dir": "DOWN",
       "openedAt": "2026-07-30T22:54:50Z",
       "score": 0.24
-    },
+    }
+  ],
+  "closed": [
     {
       "slug": "will-bitcoin-reach-67pt5k-in-august-2026",
       "question": "Will Bitcoin reach $67,500 in August?",
       "tag": "crypto",
       "side": "YES",
       "entry": 0.395,
-      "tp": 0.5461741817176236,
-      "stop": 0.2942172121882509,
-      "stake": 100.0,
-      "sigma": 0.0504,
-      "dist": 0.1008,
-      "theme": "will bitcoin reach in august",
-      "und": "BTC",
-      "dir": "UP",
+      "exit": 0.555,
+      "pnlPct": 0.40506329113924056,
+      "pnlAmt": 40.50632911392405,
       "openedAt": "2026-08-03T08:14:26Z",
-      "score": 0.54
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-08-04T15:55:18Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-ethereum-dip-to-1500-by-december-31-2026-865-787",
       "question": "Will Ethereum dip to $1,500 by December 31, 2026?",
@@ -1568,15 +1564,16 @@
     "will-bitcoin-dip-to-65k-in-july-2026-from-july-20": "2026-07-23T13:02:48Z",
     "will-ethereum-dip-to-1500-by-december-31-2026-865-787": "2026-07-31T22:26:04Z",
     "will-bitcoin-dip-to-50000-by-december-31-2026-454-325-222-878-949-487-451-853-523-111": "2026-07-28T19:57:38Z",
-    "will-bitcoin-reach-65k-in-july-2026-from-july-28": "2026-07-30T11:21:06Z"
+    "will-bitcoin-reach-65k-in-july-2026-from-july-28": "2026-07-30T11:21:06Z",
+    "will-bitcoin-reach-67pt5k-in-august-2026": "2026-08-04T15:55:18Z"
   },
   "running": true,
-  "lastTick": "2026-08-04T13:27:43Z",
+  "lastTick": "2026-08-04T15:55:18Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 386.68,
-    "nClosed": 107,
-    "nWins": 48,
-    "winRate": 0.449
+    "realizedPnl": 427.19,
+    "nClosed": 108,
+    "nWins": 49,
+    "winRate": 0.454
   }
 }
