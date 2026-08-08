@@ -1596,7 +1596,7 @@
     "will-bitcoin-dip-to-45000-by-december-31-2026-674-923-755-971-998-525-926-245-316-517-544-589-965-923-986-841-815-224-586-231-289-533-573": "2026-08-08T09:34:24Z"
   },
   "running": true,
-  "lastTick": "2026-08-08T12:03:01Z",
+  "lastTick": "2026-08-08T13:06:40Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 462.61,
