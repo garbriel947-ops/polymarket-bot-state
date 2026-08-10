@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 816.8848974215128,
+  "cash": 806.3585816320392,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -109,24 +109,37 @@
       "score": 1.050625
     },
     {
+      "slug": "will-bitcoin-dip-to-62pt5k-in-august-2026-from-august-3",
+      "question": "Will Bitcoin dip to $62,500 in August?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.24,
+      "tp": 0.3,
+      "stop": 0.19999999999999998,
+      "stake": 100.0,
+      "sigma": 0.0139,
+      "dist": 0.04,
+      "theme": "will bitcoin dip to in august",
+      "und": "BTC",
+      "dir": "UP",
+      "openedAt": "2026-08-10T17:39:11Z",
+      "score": 0.4345714285714286
+    }
+  ],
+  "closed": [
+    {
       "slug": "will-bitcoin-reach-67pt5k-in-august-2026",
       "question": "Will Bitcoin reach $67,500 in August?",
       "tag": "crypto",
       "side": "YES",
       "entry": 0.475,
-      "tp": 0.5349999999999999,
-      "stop": 0.435,
-      "stake": 100.0,
-      "sigma": 0.013,
-      "dist": 0.04,
-      "theme": "will bitcoin reach in august",
-      "und": "BTC",
-      "dir": "UP",
+      "exit": 0.425,
+      "pnlPct": -0.10526315789473682,
+      "pnlAmt": -10.526315789473681,
       "openedAt": "2026-08-10T15:54:45Z",
-      "score": 0.5
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-08-10T17:39:11Z",
+      "reason": "STOP"
+    },
     {
       "slug": "will-bitcoin-reach-66k-august-3-9-2026",
       "question": "Will Bitcoin reach $66,000 August 3-9?",
@@ -1621,18 +1634,18 @@
     "will-ethereum-dip-to-1500-by-december-31-2026-865-787": "2026-07-31T22:26:04Z",
     "will-bitcoin-dip-to-50000-by-december-31-2026-454-325-222-878-949-487-451-853-523-111": "2026-07-28T19:57:38Z",
     "will-bitcoin-reach-65k-in-july-2026-from-july-28": "2026-07-30T11:21:06Z",
-    "will-bitcoin-reach-67pt5k-in-august-2026": "2026-08-04T15:55:18Z",
+    "will-bitcoin-reach-67pt5k-in-august-2026": "2026-08-10T17:39:11Z",
     "will-bitcoin-dip-to-62pt5k-in-august-2026-from-august-3": "2026-08-07T11:28:38Z",
     "will-bitcoin-dip-to-45000-by-december-31-2026-674-923-755-971-998-525-926-245-316-517-544-589-965-923-986-841-815-224-586-231-289-533-573": "2026-08-08T09:34:24Z",
     "will-bitcoin-reach-66k-august-3-9-2026": "2026-08-09T03:56:18Z"
   },
   "running": true,
-  "lastTick": "2026-08-10T16:48:05Z",
+  "lastTick": "2026-08-10T17:39:11Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 416.9,
-    "nClosed": 111,
+    "realizedPnl": 406.37,
+    "nClosed": 112,
     "nWins": 50,
-    "winRate": 0.45
+    "winRate": 0.446
   }
 }
