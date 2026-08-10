@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 1016.8848974215128,
+  "cash": 816.8848974215128,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -90,6 +90,40 @@
       "dir": "DOWN",
       "openedAt": "2026-07-15T11:56:17Z",
       "score": 0.4747191011235956
+    },
+    {
+      "slug": "will-ethereum-reach-2000-in-august-2026",
+      "question": "Will Ethereum reach $2,000 in August?",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.52,
+      "tp": 0.5800000000000001,
+      "stop": 0.48000000000000004,
+      "stake": 100.0,
+      "sigma": 0.0141,
+      "dist": 0.04,
+      "theme": "will ethereum reach in august",
+      "und": "ETH",
+      "dir": "UP",
+      "openedAt": "2026-08-10T15:54:45Z",
+      "score": 1.050625
+    },
+    {
+      "slug": "will-bitcoin-reach-67pt5k-in-august-2026",
+      "question": "Will Bitcoin reach $67,500 in August?",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.475,
+      "tp": 0.5349999999999999,
+      "stop": 0.435,
+      "stake": 100.0,
+      "sigma": 0.013,
+      "dist": 0.04,
+      "theme": "will bitcoin reach in august",
+      "und": "BTC",
+      "dir": "UP",
+      "openedAt": "2026-08-10T15:54:45Z",
+      "score": 0.5
     }
   ],
   "closed": [
@@ -1593,7 +1627,7 @@
     "will-bitcoin-reach-66k-august-3-9-2026": "2026-08-09T03:56:18Z"
   },
   "running": true,
-  "lastTick": "2026-08-10T14:54:51Z",
+  "lastTick": "2026-08-10T15:54:45Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 416.9,
