@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 1048.4469088408327,
+  "cash": 1115.1135755074995,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -90,26 +90,22 @@
       "dir": "DOWN",
       "openedAt": "2026-07-15T11:56:17Z",
       "score": 0.4747191011235956
-    },
+    }
+  ],
+  "closed": [
     {
       "slug": "will-bitcoin-reach-66k-august-10-16-2026",
       "question": "Will Bitcoin reach $66,000 August 10-16?",
       "tag": "crypto",
       "side": "YES",
       "entry": 0.195,
-      "tp": 0.2910108529487234,
-      "stop": 0.13099276470085106,
-      "stake": 100.0,
-      "sigma": 0.032,
-      "dist": 0.064,
-      "theme": "will bitcoin reach august",
-      "und": "BTC",
-      "dir": "UP",
+      "exit": 0.13,
+      "pnlPct": -0.3333333333333333,
+      "pnlAmt": -33.33333333333333,
       "openedAt": "2026-08-12T15:31:27Z",
-      "score": 0.6000000000000001
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-08-12T19:38:39Z",
+      "reason": "STOP"
+    },
     {
       "slug": "will-bitcoin-dip-to-62k-august-10-16-2026",
       "question": "Will Bitcoin dip to $62,000 August 10-16?",
@@ -1688,15 +1684,16 @@
     "will-bitcoin-reach-66k-august-3-9-2026": "2026-08-09T03:56:18Z",
     "will-bitcoin-dip-to-60k-in-august-2026": "2026-08-12T06:19:15Z",
     "will-ethereum-reach-2000-in-august-2026": "2026-08-12T10:18:06Z",
-    "will-bitcoin-dip-to-62k-august-10-16-2026": "2026-08-12T15:31:27Z"
+    "will-bitcoin-dip-to-62k-august-10-16-2026": "2026-08-12T15:31:27Z",
+    "will-bitcoin-reach-66k-august-10-16-2026": "2026-08-12T19:38:39Z"
   },
   "running": true,
-  "lastTick": "2026-08-12T18:28:53Z",
+  "lastTick": "2026-08-12T19:38:39Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 548.46,
-    "nClosed": 117,
+    "realizedPnl": 515.13,
+    "nClosed": 118,
     "nWins": 54,
-    "winRate": 0.462
+    "winRate": 0.458
   }
 }
