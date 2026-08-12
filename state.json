@@ -1663,7 +1663,7 @@
     "will-bitcoin-dip-to-60k-in-august-2026": "2026-08-12T06:19:15Z"
   },
   "running": true,
-  "lastTick": "2026-08-12T07:55:59Z",
+  "lastTick": "2026-08-12T09:08:37Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 443.99,
