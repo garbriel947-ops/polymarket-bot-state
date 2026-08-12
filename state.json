@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 968.0121262321372,
+  "cash": 1048.4469088408327,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -92,24 +92,37 @@
       "score": 0.4747191011235956
     },
     {
+      "slug": "will-bitcoin-reach-66k-august-10-16-2026",
+      "question": "Will Bitcoin reach $66,000 August 10-16?",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.195,
+      "tp": 0.2910108529487234,
+      "stop": 0.13099276470085106,
+      "stake": 100.0,
+      "sigma": 0.032,
+      "dist": 0.064,
+      "theme": "will bitcoin reach august",
+      "und": "BTC",
+      "dir": "UP",
+      "openedAt": "2026-08-12T15:31:27Z",
+      "score": 0.6000000000000001
+    }
+  ],
+  "closed": [
+    {
       "slug": "will-bitcoin-dip-to-62k-august-10-16-2026",
       "question": "Will Bitcoin dip to $62,000 August 10-16?",
       "tag": "crypto",
       "side": "YES",
       "entry": 0.23,
-      "tp": 0.4129988531300499,
-      "stop": 0.10800076457996673,
-      "stake": 100.0,
-      "sigma": 0.061,
-      "dist": 0.122,
-      "theme": "will bitcoin dip to august",
-      "und": "BTC",
-      "dir": "DOWN",
+      "exit": 0.415,
+      "pnlPct": 0.8043478260869563,
+      "pnlAmt": 80.43478260869563,
       "openedAt": "2026-08-12T10:18:06Z",
-      "score": 0.28166666666666673
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-08-12T15:31:27Z",
+      "reason": "TP"
+    },
     {
       "slug": "will-ethereum-reach-2000-in-august-2026",
       "question": "Will Ethereum reach $2,000 in August?",
@@ -1674,15 +1687,16 @@
     "will-bitcoin-dip-to-45000-by-december-31-2026-674-923-755-971-998-525-926-245-316-517-544-589-965-923-986-841-815-224-586-231-289-533-573": "2026-08-08T09:34:24Z",
     "will-bitcoin-reach-66k-august-3-9-2026": "2026-08-09T03:56:18Z",
     "will-bitcoin-dip-to-60k-in-august-2026": "2026-08-12T06:19:15Z",
-    "will-ethereum-reach-2000-in-august-2026": "2026-08-12T10:18:06Z"
+    "will-ethereum-reach-2000-in-august-2026": "2026-08-12T10:18:06Z",
+    "will-bitcoin-dip-to-62k-august-10-16-2026": "2026-08-12T15:31:27Z"
   },
   "running": true,
-  "lastTick": "2026-08-12T14:34:05Z",
+  "lastTick": "2026-08-12T15:31:27Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 468.03,
-    "nClosed": 116,
-    "nWins": 53,
-    "winRate": 0.457
+    "realizedPnl": 548.46,
+    "nClosed": 117,
+    "nWins": 54,
+    "winRate": 0.462
   }
 }
