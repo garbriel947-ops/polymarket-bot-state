@@ -1677,7 +1677,7 @@
     "will-ethereum-reach-2000-in-august-2026": "2026-08-12T10:18:06Z"
   },
   "running": true,
-  "lastTick": "2026-08-12T10:18:06Z",
+  "lastTick": "2026-08-12T11:12:18Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 468.03,
