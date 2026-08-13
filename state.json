@@ -1722,7 +1722,7 @@
     "will-bitcoin-reach-66k-august-10-16-2026": "2026-08-12T19:38:39Z"
   },
   "running": true,
-  "lastTick": "2026-08-13T15:30:02Z",
+  "lastTick": "2026-08-13T16:27:35Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 515.13,
