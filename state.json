@@ -1741,7 +1741,7 @@
     "will-bitcoin-reach-65k-in-august-2026-from-august-10": "2026-08-14T08:36:48Z"
   },
   "running": true,
-  "lastTick": "2026-08-14T18:08:24Z",
+  "lastTick": "2026-08-14T19:11:08Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 579.3,
