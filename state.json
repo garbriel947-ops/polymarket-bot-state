@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 1040.1598328666248,
+  "cash": 1024.3324947371284,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -92,24 +92,37 @@
       "score": 0.4747191011235956
     },
     {
+      "slug": "will-bitcoin-dip-to-62k-august-10-16-2026",
+      "question": "Will Bitcoin dip to $62,000 August 10-16?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.455,
+      "tp": 0.6111449566908903,
+      "stop": 0.35090336220607315,
+      "stake": 100.0,
+      "sigma": 0.052,
+      "dist": 0.1041,
+      "theme": "will bitcoin dip to august",
+      "und": "BTC",
+      "dir": "UP",
+      "openedAt": "2026-08-14T08:36:48Z",
+      "score": 1.7999999999999998
+    }
+  ],
+  "closed": [
+    {
       "slug": "will-bitcoin-reach-65k-in-august-2026-from-august-10",
       "question": "Will Bitcoin reach $65,000 in August?",
       "tag": "crypto",
       "side": "YES",
       "entry": 0.695,
-      "tp": 0.8300773711388092,
-      "stop": 0.6049484192407938,
-      "stake": 100.0,
-      "sigma": 0.045,
-      "dist": 0.0901,
-      "theme": "will bitcoin reach in august",
-      "und": "BTC",
-      "dir": "UP",
+      "exit": 0.585,
+      "pnlPct": -0.15827338129496402,
+      "pnlAmt": -15.827338129496402,
       "openedAt": "2026-08-14T05:53:49Z",
-      "score": 0.14083333333333337
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-08-14T08:36:48Z",
+      "reason": "STOP"
+    },
     {
       "slug": "will-bitcoin-dip-to-62k-august-10-16-2026",
       "question": "Will Bitcoin dip to $62,000 August 10-16?",
@@ -1728,15 +1741,16 @@
     "will-bitcoin-dip-to-60k-in-august-2026": "2026-08-12T06:19:15Z",
     "will-ethereum-reach-2000-in-august-2026": "2026-08-12T10:18:06Z",
     "will-bitcoin-dip-to-62k-august-10-16-2026": "2026-08-13T17:28:45Z",
-    "will-bitcoin-reach-66k-august-10-16-2026": "2026-08-13T17:28:45Z"
+    "will-bitcoin-reach-66k-august-10-16-2026": "2026-08-13T17:28:45Z",
+    "will-bitcoin-reach-65k-in-august-2026-from-august-10": "2026-08-14T08:36:48Z"
   },
   "running": true,
-  "lastTick": "2026-08-14T07:11:35Z",
+  "lastTick": "2026-08-14T08:36:48Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 540.18,
-    "nClosed": 120,
+    "realizedPnl": 524.35,
+    "nClosed": 121,
     "nWins": 55,
-    "winRate": 0.458
+    "winRate": 0.455
   }
 }
