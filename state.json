@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 933.2111966600046,
+  "cash": 919.212413945458,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -92,24 +92,37 @@
       "score": 0.4747191011235956
     },
     {
+      "slug": "will-bitcoin-reach-72pt5k-in-august-2026",
+      "question": "Will Bitcoin reach $72,500 in August?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.239,
+      "tp": 0.3386348099029037,
+      "stop": 0.1725767933980642,
+      "stake": 100.0,
+      "sigma": 0.0332,
+      "dist": 0.0664,
+      "theme": "will bitcoin reach in august",
+      "und": "BTC",
+      "dir": "DOWN",
+      "openedAt": "2026-08-20T08:18:10Z",
+      "score": 1.466201815642458
+    }
+  ],
+  "closed": [
+    {
       "slug": "will-bitcoin-reach-74k-august-17-23-2026",
       "question": "Will Bitcoin reach $74,000 August 17-23?",
       "tag": "crypto",
       "side": "NO",
       "entry": 0.8215,
-      "tp": 0.9373139795958264,
-      "stop": 0.7442906802694491,
-      "stake": 100.0,
-      "sigma": 0.0386,
-      "dist": 0.0772,
-      "theme": "will bitcoin reach august",
-      "und": "BTC",
-      "dir": "DOWN",
+      "exit": 0.7065,
+      "pnlPct": -0.1399878271454656,
+      "pnlAmt": -13.998782714546559,
       "openedAt": "2026-08-19T21:53:21Z",
-      "score": 1.053
-    }
-  ],
-  "closed": [
+      "closedAt": "2026-08-20T08:18:09Z",
+      "reason": "STOP"
+    },
     {
       "slug": "will-bitcoin-reach-72k-august-17-23-2026",
       "question": "Will Bitcoin reach $72,000 August 17-23?",
@@ -1902,15 +1915,16 @@
     "will-bitcoin-reach-66k-august-17-23-2026": "2026-08-19T14:17:30Z",
     "will-bitcoin-reach-70k-in-august-2026": "2026-08-19T15:57:51Z",
     "bitcoin-above-68k-on-august-24-2026": "2026-08-19T21:31:23Z",
-    "will-bitcoin-reach-72k-august-17-23-2026": "2026-08-19T21:53:20Z"
+    "will-bitcoin-reach-72k-august-17-23-2026": "2026-08-19T21:53:20Z",
+    "will-bitcoin-reach-74k-august-17-23-2026": "2026-08-20T08:18:09Z"
   },
   "running": true,
-  "lastTick": "2026-08-20T07:43:01Z",
+  "lastTick": "2026-08-20T08:18:10Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 433.25,
-    "nClosed": 133,
+    "realizedPnl": 419.25,
+    "nClosed": 134,
     "nWins": 58,
-    "winRate": 0.436
+    "winRate": 0.433
   }
 }
