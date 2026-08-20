@@ -1947,7 +1947,7 @@
     "will-solana-reach-100-in-august-2026": "2026-08-20T18:14:43Z"
   },
   "running": true,
-  "lastTick": "2026-08-20T19:02:15Z",
+  "lastTick": "2026-08-20T19:38:01Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 368.04,
