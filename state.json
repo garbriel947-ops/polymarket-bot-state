@@ -1950,7 +1950,7 @@
     "will-bitcoin-reach-72pt5k-in-august-2026": "2026-08-20T08:59:36Z"
   },
   "running": true,
-  "lastTick": "2026-08-20T14:59:07Z",
+  "lastTick": "2026-08-20T15:39:13Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 373.85,
