@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 624.7840363754618,
+  "cash": 710.5393494139455,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -92,23 +92,6 @@
       "score": 0.4747191011235956
     },
     {
-      "slug": "will-xrp-reach-1pt6-in-august-2026",
-      "question": "Will XRP reach $1.60 in August?",
-      "tag": "crypto",
-      "side": "NO",
-      "entry": 0.8705,
-      "tp": 0.9305000000000001,
-      "stop": 0.8305,
-      "stake": 100.0,
-      "sigma": 0.0113,
-      "dist": 0.04,
-      "theme": "will xrp reach in august",
-      "und": "will xrp reach in august",
-      "dir": "NO",
-      "openedAt": "2026-08-21T07:57:56Z",
-      "score": 0.1776862068965517
-    },
-    {
       "slug": "will-bitcoin-reach-78k-august-17-23-2026",
       "question": "Will Bitcoin reach $78,000 August 17-23?",
       "tag": "crypto",
@@ -127,6 +110,19 @@
     }
   ],
   "closed": [
+    {
+      "slug": "will-xrp-reach-1pt6-in-august-2026",
+      "question": "Will XRP reach $1.60 in August?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.8705,
+      "exit": 0.7465,
+      "pnlPct": -0.1424468696151637,
+      "pnlAmt": -14.24468696151637,
+      "openedAt": "2026-08-21T07:57:56Z",
+      "closedAt": "2026-08-21T09:19:26Z",
+      "reason": "STOP"
+    },
     {
       "slug": "will-bitcoin-dip-to-67pt5k-in-august-2026",
       "question": "Will Bitcoin dip to $67,500 in August?",
@@ -2016,15 +2012,16 @@
     "will-solana-reach-100-in-august-2026": "2026-08-20T18:14:43Z",
     "will-xrp-reach-1pt4-in-august-2026": "2026-08-20T23:24:18Z",
     "will-bitcoin-reach-76k-august-17-23-2026": "2026-08-20T23:47:54Z",
-    "will-bitcoin-dip-to-67pt5k-in-august-2026": "2026-08-21T08:43:21Z"
+    "will-bitcoin-dip-to-67pt5k-in-august-2026": "2026-08-21T08:43:21Z",
+    "will-xrp-reach-1pt6-in-august-2026": "2026-08-21T09:19:26Z"
   },
   "running": true,
-  "lastTick": "2026-08-21T08:43:21Z",
+  "lastTick": "2026-08-21T09:19:26Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 224.82,
-    "nClosed": 140,
+    "realizedPnl": 210.58,
+    "nClosed": 141,
     "nWins": 58,
-    "winRate": 0.414
+    "winRate": 0.411
   }
 }
