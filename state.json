@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 678.4425729608276,
+  "cash": 624.7840363754618,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -92,23 +92,6 @@
       "score": 0.4747191011235956
     },
     {
-      "slug": "will-bitcoin-dip-to-67pt5k-in-august-2026",
-      "question": "Will Bitcoin dip to $67,500 in August?",
-      "tag": "crypto",
-      "side": "YES",
-      "entry": 0.205,
-      "tp": 0.36454035539636986,
-      "stop": 0.09863976306908674,
-      "stake": 100.0,
-      "sigma": 0.0532,
-      "dist": 0.1064,
-      "theme": "will bitcoin dip to in august",
-      "und": "BTC",
-      "dir": "DOWN",
-      "openedAt": "2026-08-21T00:25:02Z",
-      "score": 2.0100000000000002
-    },
-    {
       "slug": "will-xrp-reach-1pt6-in-august-2026",
       "question": "Will XRP reach $1.60 in August?",
       "tag": "crypto",
@@ -124,9 +107,39 @@
       "dir": "NO",
       "openedAt": "2026-08-21T07:57:56Z",
       "score": 0.1776862068965517
+    },
+    {
+      "slug": "will-bitcoin-reach-78k-august-17-23-2026",
+      "question": "Will Bitcoin reach $78,000 August 17-23?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.112,
+      "tp": 0.25318012430933756,
+      "stop": 0.02,
+      "stake": 100.0,
+      "sigma": 0.0471,
+      "dist": 0.0941,
+      "theme": "will bitcoin reach august",
+      "und": "BTC",
+      "dir": "DOWN",
+      "openedAt": "2026-08-21T08:43:21Z",
+      "score": 5.025
     }
   ],
   "closed": [
+    {
+      "slug": "will-bitcoin-dip-to-67pt5k-in-august-2026",
+      "question": "Will Bitcoin dip to $67,500 in August?",
+      "tag": "crypto",
+      "side": "YES",
+      "entry": 0.205,
+      "exit": 0.095,
+      "pnlPct": -0.5365853658536585,
+      "pnlAmt": -53.658536585365844,
+      "openedAt": "2026-08-21T00:25:02Z",
+      "closedAt": "2026-08-21T08:43:21Z",
+      "reason": "STOP"
+    },
     {
       "slug": "will-bitcoin-reach-74k-august-17-23-2026",
       "question": "Will Bitcoin reach $74,000 August 17-23?",
@@ -2002,15 +2015,16 @@
     "will-bitcoin-reach-72pt5k-in-august-2026": "2026-08-20T08:59:36Z",
     "will-solana-reach-100-in-august-2026": "2026-08-20T18:14:43Z",
     "will-xrp-reach-1pt4-in-august-2026": "2026-08-20T23:24:18Z",
-    "will-bitcoin-reach-76k-august-17-23-2026": "2026-08-20T23:47:54Z"
+    "will-bitcoin-reach-76k-august-17-23-2026": "2026-08-20T23:47:54Z",
+    "will-bitcoin-dip-to-67pt5k-in-august-2026": "2026-08-21T08:43:21Z"
   },
   "running": true,
-  "lastTick": "2026-08-21T07:57:56Z",
+  "lastTick": "2026-08-21T08:43:21Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
-    "realizedPnl": 278.48,
-    "nClosed": 139,
+    "realizedPnl": 224.82,
+    "nClosed": 140,
     "nWins": 58,
-    "winRate": 0.417
+    "winRate": 0.414
   }
 }
