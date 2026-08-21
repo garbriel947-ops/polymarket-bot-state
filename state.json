@@ -21,7 +21,7 @@
     "maxHoldDays": 14,
     "mode": "fade"
   },
-  "cash": 778.4425729608276,
+  "cash": 678.4425729608276,
   "open": [
     {
       "slug": "israel-closes-its-airspace-by-june-30-324",
@@ -107,6 +107,23 @@
       "dir": "DOWN",
       "openedAt": "2026-08-21T00:25:02Z",
       "score": 2.0100000000000002
+    },
+    {
+      "slug": "will-xrp-reach-1pt6-in-august-2026",
+      "question": "Will XRP reach $1.60 in August?",
+      "tag": "crypto",
+      "side": "NO",
+      "entry": 0.8705,
+      "tp": 0.9305000000000001,
+      "stop": 0.8305,
+      "stake": 100.0,
+      "sigma": 0.0113,
+      "dist": 0.04,
+      "theme": "will xrp reach in august",
+      "und": "will xrp reach in august",
+      "dir": "NO",
+      "openedAt": "2026-08-21T07:57:56Z",
+      "score": 0.1776862068965517
     }
   ],
   "closed": [
@@ -1988,7 +2005,7 @@
     "will-bitcoin-reach-76k-august-17-23-2026": "2026-08-20T23:47:54Z"
   },
   "running": true,
-  "lastTick": "2026-08-21T07:13:02Z",
+  "lastTick": "2026-08-21T07:57:56Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 278.48,
