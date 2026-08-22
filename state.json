@@ -2033,7 +2033,7 @@
     "will-xrp-reach-1pt6-in-august-2026": "2026-08-21T09:19:26Z"
   },
   "running": true,
-  "lastTick": "2026-08-22T20:41:56Z",
+  "lastTick": "2026-08-22T20:59:18Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 210.58,
