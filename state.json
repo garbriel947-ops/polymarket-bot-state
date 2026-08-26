@@ -2047,7 +2047,7 @@
     "bitcoin-above-82k-on-august-27-2026": "2026-08-26T15:53:39Z"
   },
   "running": true,
-  "lastTick": "2026-08-26T16:40:09Z",
+  "lastTick": "2026-08-26T18:23:07Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 122.08,
