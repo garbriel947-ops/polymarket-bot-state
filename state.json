@@ -2061,7 +2061,7 @@
     "will-bitcoin-dip-to-77pt5k-in-august-2026": "2026-08-26T23:45:27Z"
   },
   "running": true,
-  "lastTick": "2026-09-04T05:05:46Z",
+  "lastTick": "2026-09-04T09:33:23Z",
   "note": "Bot Polymarket sim - strategie MEAN-REVERSION (fade). Backtest: momentum -29%/trade, fade +48% median. Anti-correlation actif. /5min GitHub Actions.",
   "stats": {
     "realizedPnl": 278.08,
